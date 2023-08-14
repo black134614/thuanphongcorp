@@ -13,7 +13,6 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
 
   const handleRollClick = () => {
-    // Scroll the page by 50% of the viewport height vertically smoothly
     const viewportHeight = Math.max(
       document.documentElement.clientHeight || 0,
       window.innerHeight || 0,
