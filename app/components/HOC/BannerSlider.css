@@ -1,0 +1,115 @@
+.autoplay-progress {
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    left: 50%;
+    top: 60vh;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    height: 180px;
+}
+
+.autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 1px;
+    stroke: #fff;
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+}
+.autoplay-progress::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    width: 140px;
+    height: 140px;
+    border: 1px solid var(--bs-gray-600);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+.swiper-pagination-fraction {
+    position: absolute;
+    top: 60vh;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -45%);
+    color: #fff;
+    text-align: center;
+}
+.swiper-pagination-current {
+    color: var(--color-1);
+    font-size: 70px;
+    text-align: center;
+    display: block;
+    line-height: 70px;
+}
+
+.swiper .swiper-slide .--detail {
+    position: absolute;
+    bottom: 15vh;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.swiper .swiper-slide .--detail h6 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.swiper .swiper-slide .--detail .arrow {
+    text-transform: capitalize;
+    color: var(--color-1);
+    font-weight: 600;
+}
+
+.swiper .swiper-slide .--detail .arrow .--link {
+}
+
+.swiper .swiper-slide .--detail .arrow .--link .--icon {
+    margin-left: 1.25rem;
+}
+.swiper .swiper-slide .--detail .arrow .--link .--icon::after {
+    border: 1px solid var(--color-1);
+    z-index: 1;
+}
+
+.swiper .swiper-button-prev {
+    display: none;
+}
+.home-slider .nextarrow {
+    display: block;
+    position: absolute;
+    top: 60vh;
+    left: 50%;
+    width: 160px;
+    height: 160px;
+    z-index: 11;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.home-slider .nextarrow img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

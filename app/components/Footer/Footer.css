@@ -1,0 +1,153 @@
+footer {
+    padding-top: 2.5rem;
+    background: rgb(34, 33, 35);
+}
+footer .footer_top {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 1.5rem;
+}
+footer .--left {
+    width: 20%;
+}
+footer .follow {
+    margin-top: 130px;
+}
+footer .logo img {
+    max-width: 170px;
+    max-height: 54px;
+}
+footer .follow span {
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.8);
+}
+footer .follow ul {
+    display: flex;
+    padding-left: 0px;
+    margin-top: 12px;
+    list-style: none;
+}
+footer .follow ul li {
+    margin-right: 8px;
+}
+footer .follow ul a, footer .follow ul .--link {
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+footer .follow ul a, footer .follow ul .--link:hover,
+footer .follow ul a, footer .follow ul .--link:active,
+footer .follow ul a, footer .follow ul .--link:focus{
+    background-color: var(--color-1);
+}
+
+footer .--right {
+    width: 75%;
+}
+footer .menu_footer {
+    width: 36%;
+}
+footer .footer_rules {
+    width: calc(64% - 345px);
+}
+footer h4 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+}
+footer .footer_link .--item {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 6px;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+footer h4 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+}
+footer .footer_link .--item {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 6px;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+footer .footer_form .form {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+footer .footer_form .form input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.21);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    border-radius: 100px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    padding: 0px 3rem 0px 1rem;
+}
+footer .footer_form .--certi .--item {
+    margin-right: 12px;
+}
+footer .footer_form .--certi img {
+    max-height: 44px;
+}
+footer .footer_logo .--item {
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+footer .footer_logo img {
+    max-height: 34px;
+}
+footer .footer_coppy {
+    background: rgb(65, 65, 65);
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 4px 0px;
+}
+footer h4 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+}
+
+footer .--link:hover, footer .--link:active, footer .--link.active, footer .--link:focus{
+    color: var(--color-1);
+}
+@media (max-width: 768px){
+    footer .--left {
+        width: 100%;
+    }
+    footer .footer_top {
+        flex-flow: column;
+        padding: 2rem 24px !important;
+    }
+    footer .follow {
+        margin-top: 2rem;
+    }
+    footer .--right {
+        flex-flow: column;
+        width: 100%;
+    }
+    footer .menu_footer {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    footer .footer_rules {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    footer .footer_form {
+        width: 100%;
+    }
+}

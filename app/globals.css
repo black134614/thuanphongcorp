@@ -1,27 +1,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import "./animate.min.css";
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Conv_SVN-Radiant Slender";
+  src: url("/assets/fonts/SVN-Radiant Slender.woff") format("woff");
+  /* Add more font formats as needed */
+}
+@font-face {
+  font-family: "Conv_BeVietnam-Bold";
+  src: url("/assets/fonts/BeVietnam-Bold.woff") format("woff");
+  /* Add more font formats as needed */
+}
+
+@font-face {
+  font-family: "Conv_BeVietnam-Regular";
+  src: url("/assets/fonts/Conv_BeVietnam-Regular.woff") format("woff");
+  /* Add more font formats as needed */
+}
+
+@font-face {
+  font-family: "Conv_TIMESR";
+  src: url("/assets/fonts/TIMESR.woff") format("woff");
+  /* Add more font formats as needed */
+}
+
+@font-face {
+  font-family: "Conv_BeVietnam-Thin";
+  src: url("/assets/fonts/BeVietnam-Thin.woff") format("woff");
+  /* Add more font formats as needed */
+}
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --font-title: 'Conv_SVN-Radiant Slender';
+  --font-body: "Conv_BeVietnam-Regular";
+  --font-bethin: "Conv_BeVietnam-Thin";
+  --font-time: "Conv_TIMESR";
+  --font-bebold: "Conv_BeVietnam-Bold";
+  --color-1: #ffc20e;
+  --color-2: #ff0e56;
+  --color-3: #afafaf;
+  --color-4: #faebd7;
+  scroll-behavior: auto !important;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-size: 14px;
+  background: rgb(250, 250, 250);
+}
+
+.--link {
+  cursor: pointer;
+}
+
+a,
+.--link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:hover {
+  --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
 }
