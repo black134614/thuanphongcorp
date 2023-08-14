@@ -42,8 +42,8 @@ export default function HotArticle() {
             data-aos-delay={300}
             className='aos-init aos-animate'>
             Chiều 12/3, UBND thị xã Sa Pa phối hợp với Tập đoàn Sun Group tổ
-            chức lễ phát động "Sa Pa - Khu du lịch Quốc gia Sạch, Đẹp, Văn
-            minh", ra quân dọn dẹp vệ sinh và chăm sóc cây, hoa dọc các tuyến
+            chức lễ phát động Sa Pa - Khu du lịch Quốc gia Sạch, Đẹp, Văn
+            minh, ra quân dọn dẹp vệ sinh và chăm sóc cây, hoa dọc các tuyến
             phố trung tâm.
           </article>
         </div>
