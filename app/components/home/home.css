@@ -2275,4 +2275,8 @@ ul.data span:nth-child(2) {
         box-shadow: none;
         padding: 0px;
     }
+    .homeEcosystem .list_homeEcosystem .--item ul p:nth-child(1){
+        width: auto;
+        margin-right: 5px;
+    }
 }
