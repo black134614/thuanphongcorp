@@ -7,13 +7,11 @@ async function getMovies() {
 }
 export default async function HomeIntroMain() {
   let { results } = await getMovies()
-  
   return (
     <div className='homeIntro main'>
       <div className='--txt aos-init aos-animate' data-aos='fade-up'>
         THUẬN PHONG CORP
       </div>
-      <button>Log</button>
       <div className='--year d-flex flex-column'>
         <div className='--number d-flex align-items-end'>
           <div className='numberimg'>

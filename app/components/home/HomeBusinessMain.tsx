@@ -5,6 +5,9 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import { Navigation } from 'swiper/modules'
 
+const settings = {
+  loop: true
+}
 export default function HomeBusinessMain() {
   const [mobile, setMobile] = useState(false)
   useEffect(() => {
@@ -37,36 +40,32 @@ export default function HomeBusinessMain() {
       <Swiper
         className='list_homeBusiness'
         direction={mobile ? 'vertical' : 'horizontal'}
+        {...settings}
         modules={[Navigation]}
         navigation={{
           nextEl: '.nextarrow',
           prevEl: '.prevarrow',
         }}
-       longSwipes={true}
+        longSwipes={true}
         breakpoints={{
           0: {
             slidesPerView: 2,
             spaceBetween: 0,
             height: 440,
-            
           },
           768: {
             spaceBetween: 5,
-            slidesPerView: 3
+            slidesPerView: 3,
           },
-          992:{
+          992: {
             spaceBetween: 5,
-            slidesPerView: 4
-          }
-        }}
-       >
+            slidesPerView: 4,
+          },
+        }}>
         <SwiperSlide>
           <div>
             <div
-              className='--item aos-init aos-animate'
-              data-aos='fade-up'
-              data-aos-delay={100}
-              tabIndex={-1}
+              className='--item'
               style={{ width: '100%', display: 'inline-block' }}>
               <div className='--img img_hover'>
                 <img
@@ -101,10 +100,8 @@ export default function HomeBusinessMain() {
         <SwiperSlide>
           <div>
             <div
-              className='--item aos-init aos-animate'
-              data-aos='fade-up'
-              data-aos-delay={100}
-              tabIndex={-1}
+              className='--item'
+             
               style={{ width: '100%', display: 'inline-block' }}>
               <div className='--img img_hover'>
                 <img
@@ -139,10 +136,7 @@ export default function HomeBusinessMain() {
         <SwiperSlide>
           <div>
             <div
-              className='--item aos-init aos-animate'
-              data-aos='fade-up'
-              data-aos-delay={100}
-              tabIndex={-1}
+              className='--item'
               style={{ width: '100%', display: 'inline-block' }}>
               <div className='--img img_hover'>
                 <img
@@ -177,10 +171,8 @@ export default function HomeBusinessMain() {
         <SwiperSlide>
           <div>
             <div
-              className='--item aos-init aos-animate'
-              data-aos='fade-up'
-              data-aos-delay={100}
-              tabIndex={-1}
+              className='--item'
+        
               style={{ width: '100%', display: 'inline-block' }}>
               <div className='--img img_hover'>
                 <img
@@ -215,10 +207,8 @@ export default function HomeBusinessMain() {
         <SwiperSlide>
           <div>
             <div
-              className='--item aos-init aos-animate'
-              data-aos='fade-up'
-              data-aos-delay={100}
-              tabIndex={-1}
+              className='--item'
+             
               style={{ width: '100%', display: 'inline-block' }}>
               <div className='--img img_hover'>
                 <img
@@ -253,10 +243,8 @@ export default function HomeBusinessMain() {
         <SwiperSlide>
           <div>
             <div
-              className='--item aos-init aos-animate'
-              data-aos='fade-up'
-              data-aos-delay={100}
-              tabIndex={-1}
+              className='--item'
+             
               style={{ width: '100%', display: 'inline-block' }}>
               <div className='--img img_hover'>
                 <img
