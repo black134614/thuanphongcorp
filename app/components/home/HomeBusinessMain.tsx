@@ -5,9 +5,6 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import { Navigation } from 'swiper/modules'
 
-const settings = {
-  loop: true
-}
 export default function HomeBusinessMain() {
   const [mobile, setMobile] = useState(false)
   useEffect(() => {
@@ -40,7 +37,6 @@ export default function HomeBusinessMain() {
       <Swiper
         className='list_homeBusiness'
         direction={mobile ? 'vertical' : 'horizontal'}
-        {...settings}
         modules={[Navigation]}
         navigation={{
           nextEl: '.nextarrow',
@@ -52,14 +48,17 @@ export default function HomeBusinessMain() {
             slidesPerView: 2,
             spaceBetween: 0,
             height: 440,
+            loop: true
           },
           768: {
             spaceBetween: 5,
             slidesPerView: 3,
+            loop: true
           },
           992: {
             spaceBetween: 5,
             slidesPerView: 4,
+            loop: true
           },
         }}>
         <SwiperSlide>
