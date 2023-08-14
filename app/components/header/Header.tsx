@@ -2,11 +2,14 @@
 import React, { useEffect, useState } from 'react'
 import { Collapse } from 'react-bootstrap'
 import './Header.css'
+import Link from 'next/link'
 
 export default function Header() {
   const [openSearch, setopenSearch] = useState(false)
   const [openMenuMobile, setMenuMobile] = useState(false)
   const [open, setOpen] = useState(false)
+  const [openDiemDen, setOpenDiemDen] = useState(false)
+  const [openTinTuc, setOpenTinTuc] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
 
   const handleRollClick = () => {
@@ -56,52 +59,47 @@ export default function Header() {
             <span className='--item-menu --link --itemmenusub'>Lĩnh vực</span>
             <div className='sub-menu '>
               <div className='--box d-flex flex-column'>
-                <a className='--link' href='/business-field/bat-dong-san-133'>
+                <a className='--link' href='#'>
                   <span className='--link'>Bất động sản</span>
                 </a>
                 <a
                   className='--link'
-                  href='/business-field/du-lich-nghi-duong-135'>
+                  href='#'>
                   <span className='--link'>Du lịch nghỉ dưỡng</span>
                 </a>
                 <a
                   className='--link'
-                  href='/business-field/vui-choi-giai-tri-136'>
+                  href='#'>
                   <span className='--link'>Vui chơi giải trí</span>
                 </a>
-                <a className='--link' href='/business-field/dau-tu-ha-tang-137'>
+                <a className='--link' href='#'>
                   <span className='--link'>Đầu tư hạ tầng</span>
                 </a>
               </div>
             </div>
           </div>
           <div className='--item  '>
-            <a className='--link' href='/du-an'>
+            <a className='--link' href='#'>
               <span className='--item-menu --link'>Dự án</span>
             </a>
           </div>
           <div className='--item  '>
             <span className='--item-menu --link --itemmenusub --itemmenunews'>
-              <a className='--link' href='/tin-tuc'>
+              <Link className='--link' href='/tin-tuc'>
                 {' '}
                 Tin tức
-              </a>
+              </Link>
             </span>
             <div className='sub-menu '>
               <div className='--box d-flex flex-column'>
-                <a className='--link' href='/tin-tuc'>
+                <Link className='--link' href='/tin-tuc'>
                   <span className='--link'>Tất cả</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   className='--link'
-                  href='/tin-tuc/category/hoat-dong-xa-hoi-723'>
+                  href='/tin-tuc'>
                   <span className='--link'>Hoạt động xã hội</span>
-                </a>
-                <a
-                  className='--link'
-                  href='/tin-tuc/category/van-hoa-sun-group-724'>
-                  <span className='--link'>Văn hóa Sun Group</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -119,14 +117,14 @@ export default function Header() {
             openMenuMobile ? 'menu_mobi d-none active' : 'menu_mobi d-none '
           }>
           <div className='--item --link active'>
-            <a className='--link' href='/'>
+            <Link className='--link' href='/'>
               <span className='--item-menu --link'>Trang chủ</span>
-            </a>
+            </Link>
           </div>
           <div className='--item --link '>
-            <a className='--link' href='/gioi-thieu'>
+            <Link className='--link' href='/gioi-thieu'>
               <span className='--item-menu --link'>Giới thiệu</span>
-            </a>
+            </Link>
           </div>
           <div className='--item --link '>
             <span className='--item-menu --link' onClick={() => setOpen(!open)}>
@@ -134,24 +132,24 @@ export default function Header() {
               <i className='fa-solid fa-caret-down' />
             </span>
             <Collapse in={open}>
-              <div className='sub-menu' id='collapseExample'>
+              <div className='sub-menu'>
                 <div className='--box d-flex flex-column'>
-                  <a className='--link' href='/business-field/bat-dong-san-133'>
+                  <a className='--link' href='#'>
                     <span className='--link'>Bất động sản</span>
                   </a>
                   <a
                     className='--link'
-                    href='/business-field/du-lich-nghi-duong-135'>
+                    href='#'>
                     <span className='--link'>Du lịch nghỉ dưỡng</span>
                   </a>
                   <a
                     className='--link'
-                    href='/business-field/vui-choi-giai-tri-136'>
+                    href='#'>
                     <span className='--link'>Vui chơi giải trí</span>
                   </a>
                   <a
                     className='--link'
-                    href='/business-field/dau-tu-ha-tang-137'>
+                    href='#'>
                     <span className='--link'>Đầu tư hạ tầng</span>
                   </a>
                 </div>
@@ -160,47 +158,49 @@ export default function Header() {
           </div>
           <div className='--item --link '>
             <span
-              className='--item-menu --link'
-              aria-controls='collapseExample'
-              aria-expanded='false'>
+              className='--item-menu --link'  onClick={() => setOpenDiemDen(!openDiemDen)}>
               Điểm đến
               <i className='fa-solid fa-caret-down' />
             </span>
-            <div className='sub-menu collapse' id='collapseExample'>
-              <div className='--box d-flex flex-column'>
-                <a className='--link' href='/diem-den-dau-tu/phu-quoc'>
-                  <span className='--link'>Phú Quốc</span>
-                </a>
-                <a className='--link' href='/diem-den-dau-tu/tay-ninh'>
-                  <span className='--link'>Tây Ninh</span>
-                </a>
-                <a className='--link' href='/diem-den-dau-tu/da-nang'>
-                  <span className='--link'>Đà Nẵng</span>
-                </a>
-                <a className='--link' href='/diem-den-dau-tu/quang-ninh'>
-                  <span className='--link'>Quảng Ninh</span>
-                </a>
-                <a className='--link' href='/diem-den-dau-tu/sapa'>
-                  <span className='--link'>Sapa</span>
-                </a>
+            <Collapse in={openDiemDen}>
+              <div className='sub-menu'>
+                <div className='--box d-flex flex-column'>
+                  <a className='--link' href='#'>
+                    <span className='--link'>Bất động sản</span>
+                  </a>
+                  <a
+                    className='--link'
+                    href='#'>
+                    <span className='--link'>Du lịch nghỉ dưỡng</span>
+                  </a>
+                  <a
+                    className='--link'
+                    href='#'>
+                    <span className='--link'>Vui chơi giải trí</span>
+                  </a>
+                  <a
+                    className='--link'
+                    href='#'>
+                    <span className='--link'>Đầu tư hạ tầng</span>
+                  </a>
+                </div>
               </div>
-            </div>
+            </Collapse>
           </div>
           <div className='--item --link '>
-            <a className='--link' href='/du-an'>
+            <a className='--link' href='#'>
               <span className='--item-menu --link'>Dự án</span>
             </a>
           </div>
           <div className='--item --link '>
             <span
-              className='--item-menu --link'
-              aria-controls='collapseExample'
-              aria-expanded='false'>
+              className='--item-menu --link'onClick={() =>{setOpenTinTuc(!openTinTuc)}}>
               Tin tức
               <i className='fa-solid fa-caret-down' />
             </span>
-            <div className='sub-menu collapse' id='collapseExample'>
-              <div className='--box d-flex flex-column'>
+            <Collapse in={openTinTuc}>
+              <div className='sub-menu'>
+                <div className='--box d-flex flex-column'>
                 <a className='--link' href='/tin-tuc'>
                   <span className='--link'>Tất cả</span>
                 </a>
@@ -214,8 +214,9 @@ export default function Header() {
                   href='/tin-tuc/category/van-hoa-sun-group-724'>
                   <span className='--link'>Văn hóa</span>
                 </a>
+                </div>
               </div>
-            </div>
+            </Collapse>
           </div>
           <div className='--item --link '>
             <a className='--link' href='/lien-he'>

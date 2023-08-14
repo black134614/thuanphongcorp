@@ -1,6 +1,11 @@
 import React from 'react'
-
-export default function Intro() {
+async function getMovies() {
+  let res = await fetch(`https://api.publicapis.org/entries`)
+  await new Promise((resolve) => setTimeout(resolve, 1500))
+  return res.json()
+}
+export default async function Intro() {
+  let { results } = await getMovies()
   return (
     <div className='aboutIntro main'>
       <div className='row'>

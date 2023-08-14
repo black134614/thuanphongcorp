@@ -13,34 +13,29 @@
 @font-face {
   font-family: "Conv_SVN-Radiant Slender";
   src: url("/assets/fonts/SVN-Radiant Slender.woff") format("woff");
-  /* Add more font formats as needed */
 }
 @font-face {
   font-family: "Conv_BeVietnam-Bold";
   src: url("/assets/fonts/BeVietnam-Bold.woff") format("woff");
-  /* Add more font formats as needed */
 }
 
 @font-face {
   font-family: "Conv_BeVietnam-Regular";
   src: url("/assets/fonts/Conv_BeVietnam-Regular.woff") format("woff");
-  /* Add more font formats as needed */
 }
 
 @font-face {
   font-family: "Conv_TIMESR";
   src: url("/assets/fonts/TIMESR.woff") format("woff");
-  /* Add more font formats as needed */
 }
 
 @font-face {
   font-family: "Conv_BeVietnam-Thin";
   src: url("/assets/fonts/BeVietnam-Thin.woff") format("woff");
-  /* Add more font formats as needed */
 }
 
 :root {
-  --font-title: 'Conv_SVN-Radiant Slender';
+  --font-title: "Conv_SVN-Radiant Slender";
   --font-body: "Conv_BeVietnam-Regular";
   --font-bethin: "Conv_BeVietnam-Thin";
   --font-time: "Conv_TIMESR";
@@ -73,3 +68,67 @@ a {
 a:hover {
   --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
 }
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+.animate__animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animate__animated.animate__infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+.animate__pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+
+.loading {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 1);
+  z-index: 99;
+}
+.loading .img-loading-wrap {
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

@@ -3,6 +3,8 @@ import Header from './components/header/Header'
 import './globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './components/home/home.css'
+import Loading from './loading'
+import { Suspense } from 'react'
 
 export const metadata = {
   title: 'Create Next App',
@@ -17,9 +19,11 @@ export default function RootLayout({
   return (
     <html lang='vi'>
       <body>
-        <Header />
-        {children}
-        <Footer />
+        <Suspense fallback={<Loading />}>
+          <Header />
+          {children}
+          <Footer />
+        </Suspense>
       </body>
     </html>
   )

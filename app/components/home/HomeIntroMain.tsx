@@ -1,11 +1,19 @@
 import React from 'react'
 
-export default function HomeIntroMain() {
+async function getMovies() {
+  let res = await fetch(`https://api.publicapis.org/entries`)
+  await new Promise((resolve) => setTimeout(resolve, 1500))
+  return res.json()
+}
+export default async function HomeIntroMain() {
+  let { results } = await getMovies()
+  
   return (
     <div className='homeIntro main'>
       <div className='--txt aos-init aos-animate' data-aos='fade-up'>
-        THUẬN PHONG CORP     
+        THUẬN PHONG CORP
       </div>
+      <button>Log</button>
       <div className='--year d-flex flex-column'>
         <div className='--number d-flex align-items-end'>
           <div className='numberimg'>
@@ -35,9 +43,9 @@ export default function HomeIntroMain() {
         data-aos-delay={200}
         className='aos-init aos-animate'>
         <p>
-          Thuận Phong Corp mang trong mình sứ mệnh của Người Khai Mở - Tìm đến những
-          vùng đất giàu tiềm năng nhưng chưa được khai thác đúng tầm, làm thay
-          đổi những vùng đất ấy, kiến tạo và đóng góp cho xã hội những công
+          Thuận Phong Corp mang trong mình sứ mệnh của Người Khai Mở - Tìm đến
+          những vùng đất giàu tiềm năng nhưng chưa được khai thác đúng tầm, làm
+          thay đổi những vùng đất ấy, kiến tạo và đóng góp cho xã hội những công
           trình, sản phẩm/dịch vụ có đẳng cấp chất lượng vượt trội và trường tồn
           theo thời gian. Góp phần nâng cao vị thế đất nước, nâng cao chất lượng
           sống của người dân, làm đẹp, làm giàu cho Tổ quốc và đưa Việt Nam trở
