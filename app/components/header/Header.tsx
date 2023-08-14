@@ -19,15 +19,12 @@ export default function Header() {
     )
     window.scrollTo({ top: viewportHeight * 0.5, behavior: 'smooth' })
   }
-
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY
       setIsScrolled(scrollY >= window.innerHeight * 0.5)
     }
-
     window.addEventListener('scroll', handleScroll)
-
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }
