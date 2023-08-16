@@ -42,9 +42,7 @@ export default function AboutValue() {
                       <p className='mb-0' />
                     </div>
                     <span>
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text. It has roots in a piece of classical Latin
-                      literature from 45 BC, making it over 2000 years old.
+                      Cung cấp 1 hệ thống dịch vụ khép kín với chất lượng và phong cách phục vụ chuyên nghiệp nhất, đáp ứng cho khách hàng những không gian sống hoàn hảo và như ý.
                     </span>
                   </li>
                   <li
@@ -55,22 +53,7 @@ export default function AboutValue() {
                       <p className='mb-0' />
                     </div>
                     <span>
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text. It has roots in a piece of classical Latin
-                      literature from 45 BC, making it over 2000 years old.
-                    </span>
-                  </li>
-                  <li
-                    data-aos='fade-up'
-                    data-aos-delay={300}
-                    className='aos-init aos-animate'>
-                    <div className='arrow_1 d-flex align-items-center '>
-                      <p className='mb-0' />
-                    </div>
-                    <span>
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text. It has roots in a piece of classical Latin
-                      literature from 45 BC, making it over 2000 years old.
+                      Thuận Phong cam kết mọi khách hàng của chúng tôi sẽ luôn được sử dụng những công trình tốt nhất, đẹp nhất, chất lượng nhất.
                     </span>
                   </li>
                 </ul>
@@ -88,35 +71,8 @@ export default function AboutValue() {
                       <p className='mb-0' />
                     </div>
                     <span>
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text. It has roots in a piece of classical Latin
-                      literature from 45 BC, making it over 2000 years old.
-                    </span>
-                  </li>
-                  <li
-                    data-aos='fade-up'
-                    data-aos-delay={200}
-                    className='aos-init aos-animate'>
-                    <div className='arrow_1 d-flex align-items-center '>
-                      <p className='mb-0' />
-                    </div>
-                    <span>
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text. It has roots in a piece of classical Latin
-                      literature from 45 BC, making it over 2000 years old.
-                    </span>
-                  </li>
-                  <li
-                    data-aos='fade-up'
-                    data-aos-delay={300}
-                    className='aos-init aos-animate'>
-                    <div className='arrow_1 d-flex align-items-center '>
-                      <p className='mb-0' />
-                    </div>
-                    <span>
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text. It has roots in a piece of classical Latin
-                      literature from 45 BC, making it over 2000 years old.
+                      Thuận Phong Copr là sự lựa chọn hàng đầu của các doanh nghiệp và cá nhân khu vực và trên toàn quốc.
+                      Từng bước trở thành đơn vị hàng đầu trong lĩnh vực tư vấn, thiết kế thi công nội thất cao cấp tại Việt Nam. Vững mãnh về tổ chức và lớn mạnh về thương hiệu.
                     </span>
                   </li>
                 </ul>
