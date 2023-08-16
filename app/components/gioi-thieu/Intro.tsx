@@ -22,8 +22,8 @@ export default async function Intro() {
         <div className='col-md-7'>
           <div className='--content'>
             <h2 className='segTitle aos-init aos-animate' data-aos='fade-up'>
-              Sun Group <br />
-              Làm đẹp những vùng đất
+             Thuận Phong <br />
+             Where does it come from?
             </h2>
             <div className='--tab d-flex flex-wrap' />
             <div
@@ -51,10 +51,10 @@ export default async function Intro() {
               className='--year mt-3 d-flex align-items-end aos-init aos-animate'
               data-aos='fade-up'
               data-aos-delay={300}>
-              <div className='--number'>15</div>
+              <div className='--number'>10</div>
               <div className='--txt'>
                 <span>năm</span>
-                <h5 className='mb-0 mt-2'>phát triển bền vững</h5>
+                <h5 className='mb-0 mt-2'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words</h5>
               </div>
             </div>
           </div>

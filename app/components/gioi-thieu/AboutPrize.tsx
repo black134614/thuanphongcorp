@@ -137,7 +137,7 @@ export default function AboutPrize() {
                   <div className='--number1 mb-3'>
                     0{/* */}3{/* */}.
                   </div>
-                  <h3>BẤT ĐỘNG SẢN</h3>
+                  <h3>Giải Thưởng 2</h3>
                   <ul className='mb-0 --empty' />
                 </div>
               </div>
@@ -167,7 +167,7 @@ export default function AboutPrize() {
                   <div className='--number1 mb-3'>
                     0{/* */}4{/* */}.
                   </div>
-                  <h3>ĐẦU TƯ HẠ TẦNG</h3>
+                  <h3>Giải Thưởng </h3>
                   <ul className='mb-0 --empty' />
                 </div>
               </div>

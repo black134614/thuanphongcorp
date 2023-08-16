@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 
 import 'aos/dist/aos.css'
 import AOS from 'aos'
-import BannerSlider from '../HOC/BannerSlider'
+import BannerSlider from '../HOC/BannerSlider2/BannerSlider2'
 
 const slides = [
   {

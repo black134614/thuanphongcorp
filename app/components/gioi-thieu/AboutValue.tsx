@@ -10,7 +10,7 @@ export default function AboutValue() {
               <div
                 className='subTitle mb-3 aos-init aos-animate'
                 data-aos='fade-up'>
-                Sun group
+                Thuận Phong Corp
               </div>
               <h2
                 className='segTitle mb-3 aos-init aos-animate'
@@ -22,8 +22,8 @@ export default function AboutValue() {
                 data-aos='fade-up'
                 data-aos-delay={200}
                 className='aos-init aos-animate'>
-                Mang trên mình sứ mệnh của Người Khai Mở, Sun Group kiên định
-                với các mục tiêu
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text.
               </article>
             </div>
           </div>
@@ -42,11 +42,9 @@ export default function AboutValue() {
                       <p className='mb-0' />
                     </div>
                     <span>
-                      Tìm đến những vùng đất giàu tiềm năng nhưng chưa được khai
-                      thác đúng tầm, làm thay đổi những vùng đất ấy, kiến tạo và
-                      đóng góp cho xã hội những công trình, sản phẩm/dịch vụ có
-                      đẳng cấp chất lượng vượt trội và trường tồn theo thời
-                      gian.
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
                     </span>
                   </li>
                   <li
@@ -57,9 +55,9 @@ export default function AboutValue() {
                       <p className='mb-0' />
                     </div>
                     <span>
-                      Góp phần nâng cao vị thế đất nước, nâng cao chất lượng
-                      sống của người dân, làm đẹp, làm giàu cho Tổ quốc và đưa
-                      Việt Nam trở thành điểm đến hấp dẫn của thế giới.
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
                     </span>
                   </li>
                   <li
@@ -70,8 +68,9 @@ export default function AboutValue() {
                       <p className='mb-0' />
                     </div>
                     <span>
-                      Góp phần xây dựng Người Việt Nam mới với phẩm chất, năng
-                      lực và sức khỏe bắt kịp thời cuộc.
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
                     </span>
                   </li>
                 </ul>
@@ -89,10 +88,9 @@ export default function AboutValue() {
                       <p className='mb-0' />
                     </div>
                     <span>
-                      Trở thành một trong những Tập đoàn kinh tế tư nhân Việt
-                      Nam có quy mô và đẳng cấp quốc tế; lấy lĩnh vực Du lịch
-                      nghỉ dưỡng, Vui chơi giải trí, Bất động sản và Đầu tư hạ
-                      tầng làm lĩnh vực đầu tư chiến lược.
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
                     </span>
                   </li>
                   <li
@@ -103,8 +101,9 @@ export default function AboutValue() {
                       <p className='mb-0' />
                     </div>
                     <span>
-                      Luôn thuộc nhóm các công ty dẫn đầu trong lĩnh vực đầu tư
-                      mà Sun Group tham gia.
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
                     </span>
                   </li>
                   <li
@@ -115,8 +114,9 @@ export default function AboutValue() {
                       <p className='mb-0' />
                     </div>
                     <span>
-                      Tiên phong trong việc xây dựng văn hóa du lịch:&nbsp; Văn
-                      minh, chuyên nghiệp và nhân văn ở Việt Nam.
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
                     </span>
                   </li>
                 </ul>
@@ -138,11 +138,14 @@ export default function AboutValue() {
               <div className='arrow_1 d-flex align-items-center '>
                 <p className='mb-0' />
               </div>
-              <h3>“Chất lượng”</h3>
+              <h3>“Dịch vụ uy tín, chuyên nghiệp, tiến độ nhanh”</h3>
               <span>
-                Đảm bảo chất lượng và dịch vụ hướng đến chuẩn mực quốc tế và bền
-                vững với thời gian. Phát triển hướng đến những thế hệ mai sau,
-                nuôi dưỡng và gìn giữ môi trường sống ổn định, sạch và văn minh.
+                Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+                Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+                Cicero, written in 45 BC. This book is a treatise on the theory
+                of ethics, very popular during the Renaissance. The first line
+                of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a
+                line in section 1.10.32.
               </span>
               <div className='--link mt-3 justify-content-center --icon'>
                 <img src='/assets/imgs/Arrow 8.svg' alt='SUN GROUP' />
@@ -160,13 +163,14 @@ export default function AboutValue() {
               <div className='arrow_1 d-flex align-items-center '>
                 <p className='mb-0' />
               </div>
-              <h3>“Đẳng cấp”</h3>
+              <h3>“Môi trường làm việc sáng tạo, hiệu quả”</h3>
               <span>
-                Sản phẩm dịch vụ sang trọng , có tính thẩm mỹ, ý nghĩa sâu sắc,
-                giá trị kinh tế và giá trị sử dụng vượt trội so với thị trường
-                chung trong lĩnh vực hoạt động, được công nhận bở các tổ chức
-                quốc tế có uy tín và được sự ghi nhận, trân trọng của cộng đồng
-                trong nước và quốc tế.&nbsp;
+                Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+                Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+                Cicero, written in 45 BC. This book is a treatise on the theory
+                of ethics, very popular during the Renaissance. The first line
+                of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a
+                line in section 1.10.32.
               </span>
               <div className='--link mt-3 justify-content-center --icon'>
                 <img src='/assets/imgs/Arrow 8.svg' alt='SUN GROUP' />
@@ -184,13 +188,14 @@ export default function AboutValue() {
               <div className='arrow_1 d-flex align-items-center '>
                 <p className='mb-0' />
               </div>
-              <h3>“Khác biệt”</h3>
+              <h3>“Đội ngũ nhân viên đoàn kết và thân thiện”</h3>
               <span>
-                Hướng đến sự độc đáo riêng có hoặc hiếm có, khó có thể sao chép
-                được trong sản phẩm dịch vụ. Táo bạo để tìm kiếm những cơ hội,
-                để làm vượt trội những gì mà người khác không làm, không dám
-                làm&nbsp; hoặc không thể làm để tạo ra những công trình có giá
-                trị văn hoá vật thể và phi vật thể trường tồn theo thời gian.
+                Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+                Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+                Cicero, written in 45 BC. This book is a treatise on the theory
+                of ethics, very popular during the Renaissance. The first line
+                of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a
+                line in section 1.10.32.
               </span>
               <div className='--link mt-3 justify-content-center --icon'>
                 <img src='/assets/imgs/Arrow 8.svg' alt='SUN GROUP' />
@@ -207,7 +212,7 @@ export default function AboutValue() {
           <div
             className='subTitle mb-3 aos-init aos-animate'
             data-aos='fade-up'>
-            Sun group
+            Thuận Phong Corp
           </div>
           <h2
             className='segTitle mb-3 aos-init aos-animate'
@@ -219,8 +224,7 @@ export default function AboutValue() {
             data-aos='fade-up'
             data-aos-delay={200}
             className='aos-init aos-animate'>
-            Mang trên mình sứ mệnh của Người Khai Mở, Sun Group kiên định với
-            các mục tiêu
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
           </article>
         </div>
       </div>

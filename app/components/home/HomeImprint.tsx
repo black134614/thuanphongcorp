@@ -60,7 +60,7 @@ export default function HomeImprint() {
       </div>
       <div className='--txt'>
         <p className='segTitle aos-init aos-animate' data-aos='fade-up'>
-          Dấu ấn mỗi ngày
+          Bài viết dấu ấn
         </p>
         <div className='--content'>
           <h3
@@ -72,19 +72,16 @@ export default function HomeImprint() {
             data-aos='fade-up'
             data-aos-delay={100}
             className='aos-init aos-animate'>
-            Từ ngày 24/6 đến 2/7/2023, mùa giải “Vó ngựa trên mây” lần thứ 6 sẽ
-            được tổ chức tại Sun World Fansipan Legend, đưa du khách sống lại
-            nét văn hóa bản địa đặc sắc từ hàng trăm năm trước, bên cung đường
-            đua rợp sắc hoa hồng.
-            <br />
-            &nbsp;
-            <br />
-            Nhằm gia tăng trải nghiệm cho du khách khám phá mùa hè mát lạnh của
-            Sa Pa, khu du lịch Sun World Fansipan Legend tổ chức mùa giải “Vó
-            ngựa trên mây” bài bản, quy mô trong suốt một tuần. Xen kẽ giữa
-            những vòng đua kịch tính của các nài ngựa Tây Bắc là những tiết mục
-            trình diễn nghệ thuật, diễu hành ngựa… hứa hẹn mang đến cho du khách
-            không khí lễ hội sôi động, hấp dẫn bậc nhất hè này.
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content
+            here', making it look like readable English. Many desktop publishing
+            packages and web page editors now use Lorem Ipsum as their default
+            model text, and a search for 'lorem ipsum' will uncover many web
+            sites still in their infancy. Various versions have evolved over the
+            years, sometimes by accident, sometimes on purpose (injected humour
+            and the like)
           </article>
 
           <a className='--link' href='/'>

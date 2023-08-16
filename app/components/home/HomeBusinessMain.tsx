@@ -77,7 +77,7 @@ export default function HomeBusinessMain() {
                   <div className='--number mb-3'>
                     0{/* */}1{/* */}.
                   </div>
-                  <h3>Vui chơi giải trí</h3>
+                  <h3>Thiết Kế & thi công bảng hiệu quảng cáo</h3>
                   <ul className='mb-0 --empty' />
                 </div>
                 <a
@@ -113,7 +113,7 @@ export default function HomeBusinessMain() {
                   <div className='--number mb-3'>
                     0{/* */}2{/* */}.
                   </div>
-                  <h3>DU LỊCH NGHỈ DƯỠNG</h3>
+                  <h3>Thiết kế & thi công nội thất</h3>
                   <ul className='mb-0 --empty' />
                 </div>
                 <a
@@ -148,7 +148,7 @@ export default function HomeBusinessMain() {
                   <div className='--number mb-3'>
                     0{/* */}3{/* */}.
                   </div>
-                  <h3>BẤT ĐỘNG SẢN</h3>
+                  <h3>Sửa chữa & cải tạo nhà ở - văn phòng -shop</h3>
                   <ul className='mb-0 --empty' />
                 </div>
                 <a
@@ -184,7 +184,7 @@ export default function HomeBusinessMain() {
                   <div className='--number mb-3'>
                     0{/* */}4{/* */}.
                   </div>
-                  <h3>ĐẦU TƯ HẠ TẦNG</h3>
+                  <h3>Phân phối các nhãn hàng thương mại</h3>
                   <ul className='mb-0 --empty' />
                 </div>
                 <a
@@ -218,45 +218,9 @@ export default function HomeBusinessMain() {
               <div className='--txt'>
                 <div className='--top'>
                   <div className='--number mb-3'>
-                    0{/* */}1{/* */}.
+                    0{/* */}5{/* */}.
                   </div>
-                  <h3>Vui chơi giải trí</h3>
-                  <ul className='mb-0 --empty' />
-                </div>
-                <a
-                  className='--link'
-                  href='/business-field/vui-choi-giai-tri-136'>
-                  <div className='--viewall --link arrow_1 d-flex mt-3 align-items-center'>
-                    Xem chi tiết
-                    <p className='mb-0' />
-                  </div>
-                </a>
-              </div>
-              <div className='partent'>
-                <img src='/assets/imgs/Vector 10.svg' alt='SUN GROUP' />
-                <img src='/assets/imgs/Vector 11.svg' alt='SUN GROUP' />
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <div
-              className='--item'
-             
-              style={{ width: '100%', display: 'inline-block' }}>
-              <div className='--img img_hover'>
-                <img
-                  src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Kho%20%E1%BA%A3nh%20chung/InterContinental%20Danang%20Sun%20Peninsula%20Resort/566/image-thumb__566__image-thumbnail/Ba%CC%89n%20sao%20cu%CC%89a%20InterContinental%20Danang%20Sun%20Peninsula%20Resort%20(11).jpg'
-                  alt='SUN GROUP'
-                />
-              </div>
-              <div className='--txt'>
-                <div className='--top'>
-                  <div className='--number mb-3'>
-                    0{/* */}1{/* */}.
-                  </div>
-                  <h3>Vui chơi giải trí</h3>
+                  <h3>VSản xuất & kinh doanh hệ thống tiệm bánh KAMY KITCHEN</h3>
                   <ul className='mb-0 --empty' />
                 </div>
                 <a

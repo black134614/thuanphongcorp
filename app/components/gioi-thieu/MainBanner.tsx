@@ -17,14 +17,13 @@ export default function MainBanner() {
       </div>
       <div className='--title'>
         <h1 data-aos='fade-up' className='Title aos-init aos-animate'>
-          Dấu ấn vượt thời gian
+        Kiến tạo giá trị - xây dựng tương lai
         </h1>
         <article
           data-aos='fade-up'
           data-aos-delay={100}
           className='aos-init aos-animate'>
-          Sun Group tự hào là Tập đoàn Việt Nam có những công trình đẳng cấp
-          sánh ngang tầm quốc tế.
+        Thuận Phong Corp It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
         </article>
       </div>
       <ul
@@ -32,7 +31,7 @@ export default function MainBanner() {
         data-aos='fade-up'
         data-aos-delay={200}>
         <li>
-          <span>15</span>
+          <span>10</span>
           <span>năm kinh nghiệm</span>
         </li>
         <li>

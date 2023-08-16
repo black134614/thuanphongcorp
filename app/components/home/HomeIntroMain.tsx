@@ -41,13 +41,13 @@ export default async function HomeIntroMain() {
         data-aos-delay={200}
         className='aos-init aos-animate'>
         <p>
-          Thuận Phong Corp mang trong mình sứ mệnh của Người Khai Mở - Tìm đến
-          những vùng đất giàu tiềm năng nhưng chưa được khai thác đúng tầm, làm
-          thay đổi những vùng đất ấy, kiến tạo và đóng góp cho xã hội những công
-          trình, sản phẩm/dịch vụ có đẳng cấp chất lượng vượt trội và trường tồn
-          theo thời gian. Góp phần nâng cao vị thế đất nước, nâng cao chất lượng
-          sống của người dân, làm đẹp, làm giàu cho Tổ quốc và đưa Việt Nam trở
-          thành điểm đến hấp dẫn của thế giới.
+          Được thành lập năm 2013 tại Hòa Thành, Tây Ninh tiền thân là 1 cơ sở
+          in ấn & thi công bảng hiệu. Dưới sự dẫn dắt của lãnh đạo công ty và
+          đội ngũ nhân sự chất lượng cao. Trải qua 10 năm hình thành & phát
+          triển chúng tôi đã mở rộng sản xuất, gia tăng thêm ngành hàng và từng
+          bước khẳng định vị trí tiên phong trong việc tư vấn thiết kế, thi công
+          bảng hiệu quảng cáo, nội thất & sửa chữa cải tạo nhà trọn gói tại thị
+          trường Tây Ninh.
         </p>
       </article>
       <a className='--link' href='/gioi-thieu'>

@@ -11,41 +11,41 @@ export default function AboutPartner() {
           <div className='list_logo'>
             <div className='--img --link'>
               <img
-                src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Logo-%20icon/Logo%20Sun/408/image-thumb__408__image-thumbnail/Sun%20group.png'
+                src='/assets/imgs/thuan-phong-logo-full.png'
                 alt='SUN GROUP'
               />
             </div>
             <div className='--img --link '>
               <img
-                src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Logo- icon/Logo Sun/428/image-thumb__428__image-thumbnail/sunworld.png'
+                src='/assets/imgs/logos/in-an-tp-logo.png'
                 alt='SUN GROUP'
               />
               <span>7</span>
             </div>
             <div className='--img --link '>
               <img
-                src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Logo- icon/Logo Sun/409/image-thumb__409__image-thumbnail/sun hos.png'
+                src='/assets/imgs/logos/kamy-kiechen-llogo.png'
                 alt='SUN GROUP'
               />
               <span>0</span>
             </div>
             <div className='--img --link '>
               <img
-                src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Logo- icon/Logo Sun/412/image-thumb__412__image-thumbnail/sun pro.png'
+                src='/assets/imgs/logos/legendi-logo.png'
                 alt='SUN GROUP'
               />
               <span>0</span>
             </div>
             <div className='--img --link '>
               <img
-                src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Logo- icon/Logo Sun/411/image-thumb__411__image-thumbnail/sun air.png'
+                src='/assets/imgs/logos/roxana-logo.png'
                 alt='SUN GROUP'
               />
               <span>0</span>
             </div>
             <div className='--img --link '>
               <img
-                src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Logo- icon/Logo Sun/410/image-thumb__410__image-thumbnail/pmc.png'
+                src='/assets/imgs/logos/legendi-logo.png'
                 alt='SUN GROUP'
               />
               <span>0</span>
@@ -61,7 +61,7 @@ export default function AboutPartner() {
           className='segTitle aos-init aos-animate'
           data-aos='fade-up'
           data-aos-delay={100}>
-          Đơn vị thành viên
+          Thành Viên - Đối Tác
         </h2>
         <h3
           data-aos='fade-up'
@@ -78,13 +78,9 @@ export default function AboutPartner() {
           Tiên phong kiến tạo và dẫn dắt xu thế
         </h6>
         <article>
-          Đi qua hành trình 15 năm hoạt động và định vị vị thế là Tập đoàn kinh
-          tế tư nhân hàng đầu Việt Nam, Sun Group đã kiến tạo nên hệ sinh thái
-          chất lượng - đẳng cấp - khác biệt, gồm những thương hiệu dẫn đầu ở các
-          lĩnh vực đầu tư trọng điểm: Vui chơi giải trí, Du lịch nghỉ dưỡng, Bất
-          động sản cao cấp, Đầu tư xây dựng, Hàng không..., hướng tới giá trị
-          phát triển bền vững cho Tập đoàn, các địa phương, khách hàng và đối
-          tác.
+          Richard McClintock, a Latin professor at Hampden-Sydney College in
+          Virginia, looked up one of the more obscure Latin words, consectetur,
+          from a Lorem Ipsum passage,
         </article>
       </div>
     </div>
