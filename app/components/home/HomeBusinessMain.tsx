@@ -220,7 +220,7 @@ export default function HomeBusinessMain() {
                   <div className='--number mb-3'>
                     0{/* */}5{/* */}.
                   </div>
-                  <h3>VSản xuất & kinh doanh hệ thống tiệm bánh KAMY KITCHEN</h3>
+                  <h3>Sản xuất & kinh doanh hệ thống tiệm bánh KAMY KITCHEN</h3>
                   <ul className='mb-0 --empty' />
                 </div>
                 <a
