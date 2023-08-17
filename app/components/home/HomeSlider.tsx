@@ -8,8 +8,8 @@ import BannerSlider from '../HOC/BannerSlider2/BannerSlider2'
 const slides = [
   {
     imageUrl:
-      'https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Banner%20trang%20ch%E1%BB%A7/3364/image-thumb__3364__image-thumbnail/%C4%90a%CC%80%20Na%CC%86%CC%83ng%20ru%CC%9B%CC%A3c%20ro%CC%9B%CC%83%20trong%20pha%CC%81o%20hoa.jpg',
-    alt: 'SUN GROUP',
+      '/assets/imgs/KT TP Show.jpg',
+    alt: 'Thuận Phong corp',
     isActive: true,
     rightToLeft: true,
   },
@@ -36,8 +36,8 @@ export default function HomeSlider() {
       </div>
       <div className='partent'>
         <img
-          src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Logo-%20icon/390/image-thumb__390__image-thumbnail/d%E1%BA%A5u%20chi%E1%BB%87n.png'
-          alt='SUN GROUP'
+          src='assets/imgs/tp-con-dau.png'
+          alt='Thuan phong corp'
         />
       </div>
       <div className='nextframe' onClick={handleRollClick}>

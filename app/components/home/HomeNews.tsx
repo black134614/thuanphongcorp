@@ -12,7 +12,7 @@ export default function HomeNews() {
         className='cardNews cardNews_mobi mt-0 d-none aos-init aos-animate'
         data-aos='zoom-in'>
         <div className='--left d-flex justify-content-center flex-column'>
-          <div className='subTitle'>Sun Group</div>
+          <div className='subTitle'>Thuận Phong Corp</div>
           <p className='segTitle'>Tin tức</p>
           <div className='partent'>
             <img src='assets/imgs/partent_2.png' alt='SUN GROUP' />
@@ -78,7 +78,7 @@ export default function HomeNews() {
         <div
           className='cardNews aos-init aos-animate d-none d-lg-block'
           data-aos='zoom-in'>
-          <div className='subTitle'>Sun Group</div>
+          <div className='subTitle'>Thuận Phong Corp</div>
           <p className='segTitle'>Tin tức</p>
           <a className='--link' href='/news'>
             <div className='arrow_1 --viewall --link d-flex align-items-center'>

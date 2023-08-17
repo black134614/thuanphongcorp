@@ -90,8 +90,8 @@ export default function HomeBusinessMain() {
                 </a>
               </div>
               <div className='partent'>
-                <img src='/assets/imgs/Vector 10.svg' alt='SUN GROUP' />
-                <img src='/assets/imgs/Vector 11.svg' alt='SUN GROUP' />
+                <img src='/assets/imgs/Vector_10.png' alt='SUN GROUP' />
+                <img src='/assets/imgs/Vector_11.png' alt='SUN GROUP' />
               </div>
             </div>
           </div>
@@ -126,8 +126,8 @@ export default function HomeBusinessMain() {
                 </a>
               </div>
               <div className='partent'>
-                <img src='/assets/imgs/Vector 10.svg' alt='SUN GROUP' />
-                <img src='/assets/imgs/Vector 11.svg' alt='SUN GROUP' />
+                <img src='/assets/imgs/Vector_10.png' alt='SUN GROUP' />
+                <img src='/assets/imgs/Vector_11.png' alt='SUN GROUP' />
               </div>
             </div>
           </div>
@@ -161,8 +161,8 @@ export default function HomeBusinessMain() {
                 </a>
               </div>
               <div className='partent'>
-                <img src='/assets/imgs/Vector 10.svg' alt='SUN GROUP' />
-                <img src='/assets/imgs/Vector 11.svg' alt='SUN GROUP' />
+                <img src='/assets/imgs/Vector_10.png' alt='SUN GROUP' />
+                <img src='/assets/imgs/Vector_11.png' alt='SUN GROUP' />
               </div>
             </div>
           </div>
@@ -197,8 +197,8 @@ export default function HomeBusinessMain() {
                 </a>
               </div>
               <div className='partent'>
-                <img src='/assets/imgs/Vector 10.svg' alt='SUN GROUP' />
-                <img src='/assets/imgs/Vector 11.svg' alt='SUN GROUP' />
+                <img src='/assets/imgs/Vector_10.png' alt='SUN GROUP' />
+                <img src='/assets/imgs/Vector_11.png' alt='SUN GROUP' />
               </div>
             </div>
           </div>
@@ -233,8 +233,8 @@ export default function HomeBusinessMain() {
                 </a>
               </div>
               <div className='partent'>
-                <img src='/assets/imgs/Vector 10.svg' alt='SUN GROUP' />
-                <img src='/assets/imgs/Vector 11.svg' alt='SUN GROUP' />
+                <img src='/assets/imgs/Vector_10.png' alt='SUN GROUP' />
+                <img src='/assets/imgs/Vector_11.png' alt='SUN GROUP' />
               </div>
             </div>
           </div>
