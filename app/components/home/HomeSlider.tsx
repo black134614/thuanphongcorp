@@ -15,8 +15,29 @@ const slides = [
   },
   {
     imageUrl:
-      'https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Kho%20%E1%BA%A3nh%20chung/Sun%20World%20Ba%20Na%20Hills/461/image-thumb__461__image-thumbnail/9.jpg',
-    alt: 'SUN GROUP',
+      '/assets/imgs/banner3.jpg',
+    alt: 'Thuận Phong corp',
+    isActive: false,
+    rightToLeft: false,
+  },
+  { 
+    imageUrl:
+      '/assets/imgs/banner1.jpg',
+    alt: 'Thuận Phong corp',
+    isActive: false,
+    rightToLeft: false,
+  },
+  {
+    imageUrl:
+      '/assets/imgs/banner2.jpg',
+    alt: 'Thuận Phong corp',
+    isActive: false,
+    rightToLeft: false,
+  },
+  {
+    imageUrl:
+      '/assets/imgs/banner4.jpg',
+    alt: 'Thuận Phong corp',
     isActive: false,
     rightToLeft: false,
   },

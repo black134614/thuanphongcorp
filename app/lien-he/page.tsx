@@ -8,8 +8,8 @@ export default function page() {
           className='--img background aos-init aos-animate'
           data-aos='zoom-in'>
           <img
-            src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Kho%20%E1%BA%A3nh%20chung/HR%20-%20MO%CC%82I%20TRU%CC%9BO%CC%9B%CC%80NG%20LA%CC%80M%20VIE%CC%A3%CC%82C/374/image-thumb__374__image-thumbnail/IMG_5950.jpg'
-            alt='SUN GROUP'
+            src='/assets/imgs/banner2.jpg'
+            alt='Thuận Phong Corp'
           />
         </div>
         <h1 className='Title aos-init aos-animate' data-aos='fade-up'>
@@ -54,25 +54,15 @@ export default function page() {
                     rel='noreferrer'>
                     <i className='fa-solid fa-location-dot' />
                     <span>
-                      Tầng 11 – Tòa nhà ACB, 218 Bạch Đằng, phường Hải Châu,
-                      thành phố Đà Nẵng, Việt Nam
+                    148-150 Phạm Hùng, KP3, P Long Hoa, TX Hòa Thành, tỉnh Tây Ninh.
                     </span>
-                  </a>
-                </li>
-                <li
-                  data-aos='fade-up'
-                  data-aos-delay={100}
-                  className='aos-init aos-animate'>
-                  <a className='--link d-flex ' href='tel:(+84) 23 6381 9181'>
-                    <i className='fa-solid fa-phone' />
-                    <span>(+84) 23 6381 9181</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div className='--item'>
               <h6 data-aos='fade-up' className='aos-init aos-animate'>
-                Văn phòng Hà Nội
+              Văn phòng – Showroom
               </h6>
               <ul>
                 <li data-aos='fade-up' className='aos-init aos-animate'>
@@ -83,25 +73,15 @@ export default function page() {
                     rel='noreferrer'>
                     <i className='fa-solid fa-location-dot' />
                     <span>
-                      Tầng 9 – Tòa nhà Sun City, 13 Hai Bà Trưng, quận Hoàn
-                      Kiếm, thành phố Hà Nội, Việt Nam
+                    PG2-02 Vincom, Đường 30/04, Khu phố 5, Phường 3, TP Tây Ninh. 
                     </span>
-                  </a>
-                </li>
-                <li
-                  data-aos='fade-up'
-                  data-aos-delay={100}
-                  className='aos-init aos-animate'>
-                  <a className='--link d-flex ' href='tel:(+84) 24 3938 6569'>
-                    <i className='fa-solid fa-phone' />
-                    <span>(+84) 24 3938 6569</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div className='--item'>
               <h6 data-aos='fade-up' className='aos-init aos-animate'>
-                văn phòng thành phố Hồ Chí Minh
+              Xưởng nội thất
               </h6>
               <ul>
                 <li data-aos='fade-up' className='aos-init aos-animate'>
@@ -112,47 +92,42 @@ export default function page() {
                     rel='noreferrer'>
                     <i className='fa-solid fa-location-dot' />
                     <span>
-                      Tầng 19 – Tòa nhà Vincom Centre 13 Lê Thánh Tôn, Quận 1,
-                      thành phố Hồ Chí Minh, Việt Nam
+                    152-154 Phạm Hùng, KP3, P Long Hoa, TX Hòa Thành, tỉnh Tây Ninh.
                     </span>
-                  </a>
-                </li>
-                <li
-                  data-aos='fade-up'
-                  data-aos-delay={100}
-                  className='aos-init aos-animate'>
-                  <a className='--link d-flex ' href='tel:(+84) 28 3914 2045'>
-                    <i className='fa-solid fa-phone' />
-                    <span>(+84) 28 3914 2045</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div className='--item'>
               <h6 data-aos='fade-up' className='aos-init aos-animate'>
-                văn phòng đà nẵng
+               HotLine Liên Hệ
               </h6>
               <ul>
-                <li data-aos='fade-up' className='aos-init aos-animate'>
-                  <a
-                    className='--link d-flex'
-                    href='https://goo.gl/maps/7QSoTWGbn9W3V8UD7'
-                    target='_blank'
-                    rel='noreferrer'>
-                    <i className='fa-solid fa-location-dot' />
-                    <span>
-                      Tầng 3 - Khách sạn Novotel Da Nang Premier Han River 36
-                      Bạch Đằng, phường Hải Châu, thành phố Đà Nẵng, Việt Nam
-                    </span>
+                <li
+                  data-aos='fade-up'
+                  data-aos-delay={100}
+                  className='aos-init aos-animate'>
+                  <a className='--link d-flex ' href='tel:(+84) 932 097 773'>
+                    <i className='fa-solid fa-phone' />
+                    <span>(+84) 932 097 773 (HOTLINE - TƯ VẤN)</span>
                   </a>
                 </li>
                 <li
                   data-aos='fade-up'
                   data-aos-delay={100}
                   className='aos-init aos-animate'>
-                  <a className='--link d-flex ' href='tel:(+84) 236 3890 874'>
+                  <a className='--link d-flex ' href='tel:(+84) 5 6666 7070'>
                     <i className='fa-solid fa-phone' />
-                    <span>(+84) 236 3890 874</span>
+                    <span>(+84) 5 6666 7070 (KINH DOANH)</span>
+                  </a>
+                </li>
+                <li
+                  data-aos='fade-up'
+                  data-aos-delay={100}
+                  className='aos-init aos-animate'>
+                  <a className='--link d-flex ' href='tel:(+84) 937 222 829'>
+                    <i className='fa-solid fa-phone' />
+                    <span>(+84) 937 222 829 (KỸ THUẬT)</span>
                   </a>
                 </li>
               </ul>
