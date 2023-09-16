@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './components/home/home.css'
 import Loading from './loading'
 import { Suspense } from 'react'
+import Facebook from './components/Facebook'
 
 export const metadata = {
   title: 'Thuận Phong Corp',
@@ -34,6 +35,7 @@ export default function RootLayout({
         <script
           src='https://sp.zalo.me/plugins/sdk.js'
           strategy='worker'></script>
+        <Facebook />
       </body>
     </html>
   )
