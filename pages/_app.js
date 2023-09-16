@@ -7,6 +7,5 @@ export default function MyApp({ Component, pageProps }) {
   return <>
 
     <Component {...pageProps} />
-    <script src="https://sp.zalo.me/plugins/sdk.js" ></script>
   </>
 }
