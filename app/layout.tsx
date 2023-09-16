@@ -25,7 +25,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </Suspense>
-        <Facebook />
+        {/* <Facebook /> */}
       </body>
     </html>
   )
