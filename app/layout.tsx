@@ -25,6 +25,8 @@ export default function RootLayout({
           {children}
           <Footer />
         </Suspense>
+        <div id='fb-root'></div>
+        <div id='fb-customer-chat' className='fb-customerchat'></div>
         {/* <Facebook /> */}
       </body>
     </html>
