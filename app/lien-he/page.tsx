@@ -1,24 +1,13 @@
-'use client'
-import React, { useEffect } from 'react'
+import React from 'react'
 
 export default function page() {
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  }, [])
-  
   return (
     <div>
       <div className='contactBanner Banner_1'>
         <div
           className='--img background aos-init aos-animate'
           data-aos='zoom-in'>
-          <img
-            src='/assets/imgs/banner2.jpg'
-            alt='Thuận Phong Tây Ninh'
-          />
+          <img src='/assets/imgs/banner2.jpg' alt='Thuận Phong Tây Ninh' />
         </div>
         <h1 className='Title aos-init aos-animate' data-aos='fade-up'>
           Liên hệ
@@ -62,7 +51,8 @@ export default function page() {
                     rel='noreferrer'>
                     <i className='fa-solid fa-location-dot' />
                     <span>
-                    148-150 Phạm Hùng, KP3, P Long Hoa, TX Hòa Thành, tỉnh Tây Ninh.
+                      148-150 Phạm Hùng, KP3, P Long Hoa, TX Hòa Thành, tỉnh Tây
+                      Ninh.
                     </span>
                   </a>
                 </li>
@@ -70,7 +60,7 @@ export default function page() {
             </div>
             <div className='--item'>
               <h6 data-aos='fade-up' className='aos-init aos-animate'>
-              Văn phòng – Showroom
+                Văn phòng – Showroom
               </h6>
               <ul>
                 <li data-aos='fade-up' className='aos-init aos-animate'>
@@ -81,7 +71,8 @@ export default function page() {
                     rel='noreferrer'>
                     <i className='fa-solid fa-location-dot' />
                     <span>
-                    PG2-02 Vincom, Đường 30/04, Khu phố 5, Phường 3, TP Tây Ninh. 
+                      PG2-02 Vincom, Đường 30/04, Khu phố 5, Phường 3, TP Tây
+                      Ninh.
                     </span>
                   </a>
                 </li>
@@ -89,7 +80,7 @@ export default function page() {
             </div>
             <div className='--item'>
               <h6 data-aos='fade-up' className='aos-init aos-animate'>
-              Xưởng nội thất
+                Xưởng nội thất
               </h6>
               <ul>
                 <li data-aos='fade-up' className='aos-init aos-animate'>
@@ -100,7 +91,8 @@ export default function page() {
                     rel='noreferrer'>
                     <i className='fa-solid fa-location-dot' />
                     <span>
-                    152-154 Phạm Hùng, KP3, P Long Hoa, TX Hòa Thành, tỉnh Tây Ninh.
+                      152-154 Phạm Hùng, KP3, P Long Hoa, TX Hòa Thành, tỉnh Tây
+                      Ninh.
                     </span>
                   </a>
                 </li>
@@ -108,7 +100,7 @@ export default function page() {
             </div>
             <div className='--item'>
               <h6 data-aos='fade-up' className='aos-init aos-animate'>
-               HotLine Liên Hệ
+                HotLine Liên Hệ
               </h6>
               <ul>
                 <li
@@ -142,9 +134,14 @@ export default function page() {
             </div>
           </div>
         </div>
-        <div className='--right aos-init aos-animate' data-aos="zoom-in">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7824.394802057263!2d106.10035520000002!3d11.320277599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310b6b3ce7aea669%3A0x2e0c4213e2691848!2sCN2%20-%20Showroom%20Cty%20Thu%E1%BA%ADn%20Phong%20T%C3%A2y%20Ninh%20(Legend%20Ideas)!5e0!3m2!1sen!2s!4v1691999609048!5m2!1sen!2s" style={{border: 0, width: '100%', height:'500px'}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-
+        <div className='--right aos-init aos-animate' data-aos='zoom-in'>
+          <iframe
+            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7824.394802057263!2d106.10035520000002!3d11.320277599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310b6b3ce7aea669%3A0x2e0c4213e2691848!2sCN2%20-%20Showroom%20Cty%20Thu%E1%BA%ADn%20Phong%20T%C3%A2y%20Ninh%20(Legend%20Ideas)!5e0!3m2!1sen!2s!4v1691999609048!5m2!1sen!2s'
+            style={{ border: 0, width: '100%', height: '500px' }}
+            allowFullScreen
+            loading='lazy'
+            referrerPolicy='no-referrer-when-downgrade'
+          />
         </div>
       </div>
     </div>
