@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './components/home/home.css'
 import Loading from './loading'
 import { Suspense } from 'react'
-import Facebook from './components/Facebook'
 import Script from 'next/script'
 
 export const metadata = {
