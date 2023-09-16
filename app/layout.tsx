@@ -33,7 +33,8 @@ export default function RootLayout({
           data-welcome-message='Rất vui khi được hỗ trợ bạn!'
           data-autopopup='2'
           data-width='300'
-          data-height='400'></div>
+          data-height='400'
+          style={{ right: '25px!important' }}></div>
         <Script id='chatfb'>
           {`var chatbox = document.getElementById('fb-customer-chat');
     chatbox.setAttribute("page_id", "537686649638747");
