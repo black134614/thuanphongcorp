@@ -1,29 +1,42 @@
 'use client'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const handleRollClick = () => {
-  const viewportHeight = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
-    window.scrollTo({ top: viewportHeight, behavior: 'smooth' });
-};
+  const viewportHeight = Math.max(
+    document.documentElement.clientHeight || 0,
+    window.innerHeight || 0,
+  )
+  window.scrollTo({ top: viewportHeight, behavior: 'smooth' })
+}
 
 export default function MainBanner() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    })
+  }, [])
+
   return (
     <div className='aboutBanner'>
       <div className='background aos-init aos-animate' data-aos='zoom-in'>
-        <img
-          src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Gi%E1%BB%9Bi%20thi%E1%BB%87u/357/image-thumb__357__image-thumbnail/DJI_0744.jpg'
-          alt='SUN GROUP'
-        />
+        <img src='/assets/imgs/banner8.jpg' alt='Thuận Phong Tây Ninh' />
       </div>
       <div className='--title'>
         <h1 data-aos='fade-up' className='Title aos-init aos-animate'>
-        Kiến tạo giá trị - xây dựng tương lai
+          Kiến tạo giá trị - xây dựng tương lai
         </h1>
         <article
           data-aos='fade-up'
           data-aos-delay={100}
           className='aos-init aos-animate'>
-        Thuận Phong Corp It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English.
+          Được thành lập năm 2013 tại Hòa Thành, Tây Ninh tiền thân là 1 cơ sở
+          in ấn & thi công bảng hiệu. Dưới sự dẫn dắt của lãnh đạo công ty và
+          đội ngũ nhân sự chất lượng cao. Trải qua 10 năm hình thành & phát
+          triển chúng tôi đã mở rộng sản xuất, gia tăng thêm ngành hàng và từng
+          bước khẳng định vị trí tiên phong trong việc tư vấn thiết kế, thi công
+          bảng hiệu quảng cáo, nội thất & sửa chữa cải tạo nhà trọn gói tại thị
+          trường Tây Ninh.
         </article>
       </div>
       <ul

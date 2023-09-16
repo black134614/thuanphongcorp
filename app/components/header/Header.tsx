@@ -41,7 +41,8 @@ export default function Header() {
           </div>
         </a>
         <div className='menu menu_pc d-flex'>
-          <div className='--item  active'>
+          {/* <div className='--item  active'> */}
+          <div className='--item'>
             <a className='--link' href='/'>
               <span className='--item-menu --link'>Trang chủ</span>
             </a>
@@ -51,7 +52,7 @@ export default function Header() {
               <span className='--item-menu --link'>Giới thiệu</span>
             </a>
           </div>
-          <div className='--item  '>
+          {/* <div className='--item  '>
             <span className='--item-menu --link --itemmenusub'>Lĩnh vực</span>
             <div className='sub-menu '>
               <div className='--box d-flex flex-column'>
@@ -73,9 +74,9 @@ export default function Header() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className='--item  '>
-            <a className='--link' href='#'>
+            <a className='--link' href='du-an'>
               <span className='--item-menu --link'>Dự án</span>
             </a>
           </div>
@@ -91,17 +92,12 @@ export default function Header() {
                 <Link className='--link' href='/tin-tuc'>
                   <span className='--link'>Tất cả</span>
                 </Link>
-                <Link
-                  className='--link'
-                  href='/tin-tuc'>
-                  <span className='--link'>Hoạt động xã hội</span>
-                </Link>
               </div>
             </div>
           </div>
-          <div className='--item  '>
+          {/* <div className='--item  '>
             <span className='--item-menu --link'>Tuyển dụng</span>
-          </div>
+          </div> */}
           <div className='--item  '>
             <a className='--link' href='/lien-he'>
               <span className='--item-menu --link'>Liên hệ</span>
@@ -112,17 +108,27 @@ export default function Header() {
           className={
             openMenuMobile ? 'menu_mobi d-none active' : 'menu_mobi d-none '
           }>
-          <div className='--item --link active'>
-            <Link className='--link' href='/'>
+          <div className='--item --link'>
+            <Link
+              className='--link'
+              href='/'
+              onClick={() => {
+                setMenuMobile(false)
+              }}>
               <span className='--item-menu --link'>Trang chủ</span>
             </Link>
           </div>
           <div className='--item --link '>
-            <Link className='--link' href='/gioi-thieu'>
+            <Link
+              className='--link'
+              href='/gioi-thieu'
+              onClick={() => {
+                setMenuMobile(false)
+              }}>
               <span className='--item-menu --link'>Giới thiệu</span>
             </Link>
           </div>
-          <div className='--item --link '>
+          {/* <div className='--item --link '>
             <span className='--item-menu --link' onClick={() => setOpen(!open)}>
               Lĩnh vực
               <i className='fa-solid fa-caret-down' />
@@ -187,41 +193,44 @@ export default function Header() {
             <a className='--link' href='#'>
               <span className='--item-menu --link'>Dự án</span>
             </a>
-          </div>
+          </div> */}
           <div className='--item --link '>
             <span
-              className='--item-menu --link'onClick={() =>{setOpenTinTuc(!openTinTuc)}}>
+              className='--item-menu --link'
+              onClick={() => {
+                setOpenTinTuc(!openTinTuc)
+              }}>
               Tin tức
               <i className='fa-solid fa-caret-down' />
             </span>
             <Collapse in={openTinTuc}>
               <div className='sub-menu'>
                 <div className='--box d-flex flex-column'>
-                <a className='--link' href='/tin-tuc'>
-                  <span className='--link'>Tất cả</span>
-                </a>
-                <a
-                  className='--link'
-                  href='/tin-tuc/category/hoat-dong-xa-hoi-723'>
-                  <span className='--link'>Hoạt động xã hội</span>
-                </a>
-                <a
-                  className='--link'
-                  href='/tin-tuc/category/van-hoa-sun-group-724'>
-                  <span className='--link'>Văn hóa</span>
-                </a>
+                  <Link
+                    className='--link'
+                    href='/tin-tuc'
+                    onClick={() => {
+                      setMenuMobile(false)
+                    }}>
+                    <span className='--link'>Tất cả</span>
+                  </Link>
                 </div>
               </div>
             </Collapse>
           </div>
           <div className='--item --link '>
-            <a className='--link' href='/lien-he'>
+            <Link
+              className='--link'
+              href='/lien-he'
+              onClick={() => {
+                setMenuMobile(false)
+              }}>
               <span className='--item-menu --link'>Liên hệ</span>
-            </a>
+            </Link>
           </div>
         </div>
         <div className='followlink d-flex align-items-center'>
-          <ul>
+          <ul className='d-none d-md-flex'>
             <li>
               <a
                 className='--link'
@@ -243,14 +252,14 @@ export default function Header() {
             <li>
               <a
                 className='--link'
-                href='https://www.tiktok.com/@sungroupofficial'
+                href='https://www.facebook.com/quangcaonoithatthuanphong'
                 target='_blank'
                 rel='noreferrer'>
                 <i className='fa-brands fa-facebook'></i>
               </a>
             </li>
           </ul>
-          <div className='--right d-flex align-items-center'>
+          {/* <div className='--right d-flex align-items-center'>
             <div
               className={openSearch ? 'search active' : 'search'}
               onClick={() => {
@@ -268,14 +277,7 @@ export default function Header() {
               onClick={() => {
                 setopenSearch(false)
               }}></i>
-            <div className='language'>
-              <select>
-                <option value='vi'>VI</option>
-                <option value='en'>EN</option>
-              </select>
-              <i className='fa-solid fa-caret-down' />
-            </div>
-          </div>
+          </div> */}
           <div
             className={
               openMenuMobile

@@ -15,7 +15,7 @@ export default function page() {
         <BreadScrumb />
         <Intro />
         <AboutValue />
-        <AboutPrize />
+        {/* <AboutPrize /> */}
         <AboutPartner/>
       </div>
     </Suspense>

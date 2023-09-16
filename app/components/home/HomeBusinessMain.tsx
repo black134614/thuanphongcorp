@@ -48,17 +48,17 @@ export default function HomeBusinessMain() {
             slidesPerView: 2,
             spaceBetween: 0,
             height: 440,
-            loop: true
+            loop: false,
           },
           768: {
             spaceBetween: 5,
             slidesPerView: 3,
-            loop: true
+            loop: false,
           },
           992: {
             spaceBetween: 5,
             slidesPerView: 4,
-            loop: true
+            loop: false,
           },
         }}>
         <SwiperSlide>
@@ -67,10 +67,7 @@ export default function HomeBusinessMain() {
               className='--item'
               style={{ width: '100%', display: 'inline-block' }}>
               <div className='--img img_hover'>
-                <img
-                  src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Kho ảnh chung/SUN WORLD HON THOM NATURE PARK/552/image-thumb__552__image-thumbnail/Sun-World-Hon-Thom-Nature-Park-8-w.jpg'
-                  alt='SUN GROUP'
-                />
+                <img src='/assets/imgs/1.jpg' alt='thuan phong Tây Ninh' />
               </div>
               <div className='--txt'>
                 <div className='--top'>
@@ -80,18 +77,24 @@ export default function HomeBusinessMain() {
                   <h3>Thiết Kế & thi công bảng hiệu quảng cáo</h3>
                   <ul className='mb-0 --empty' />
                 </div>
-                <a
+                {/* <a
                   className='--link'
                   href='/business-field/vui-choi-giai-tri-136'>
                   <div className='--viewall --link arrow_1 d-flex mt-3 align-items-center'>
                     Xem chi tiết
                     <p className='mb-0' />
                   </div>
-                </a>
+                </a> */}
               </div>
               <div className='partent'>
-                <img src='/assets/imgs/Vector_10.png' alt='SUN GROUP' />
-                <img src='/assets/imgs/Vector_11.png' alt='SUN GROUP' />
+                <img
+                  src='/assets/imgs/Vector_10.png'
+                  alt='thuan phong tay ninh'
+                />
+                <img
+                  src='/assets/imgs/Vector_11.png'
+                  alt='thuan phong tay ninh'
+                />
               </div>
             </div>
           </div>
@@ -100,13 +103,9 @@ export default function HomeBusinessMain() {
           <div>
             <div
               className='--item'
-             
               style={{ width: '100%', display: 'inline-block' }}>
               <div className='--img img_hover'>
-                <img
-                  src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Kho%20%E1%BA%A3nh%20chung/InterContinental%20Danang%20Sun%20Peninsula%20Resort/566/image-thumb__566__image-thumbnail/Ba%CC%89n%20sao%20cu%CC%89a%20InterContinental%20Danang%20Sun%20Peninsula%20Resort%20(11).jpg'
-                  alt='SUN GROUP'
-                />
+                <img src='/assets/imgs/2.jpg' alt='thuan phong Tây Ninh' />
               </div>
               <div className='--txt'>
                 <div className='--top'>
@@ -116,18 +115,16 @@ export default function HomeBusinessMain() {
                   <h3>Thiết kế & thi công nội thất</h3>
                   <ul className='mb-0 --empty' />
                 </div>
-                <a
-                  className='--link'
-                  href='/business-field/vui-choi-giai-tri-136'>
-                  <div className='--viewall --link arrow_1 d-flex mt-3 align-items-center'>
-                    Xem chi tiết
-                    <p className='mb-0' />
-                  </div>
-                </a>
               </div>
               <div className='partent'>
-                <img src='/assets/imgs/Vector_10.png' alt='SUN GROUP' />
-                <img src='/assets/imgs/Vector_11.png' alt='SUN GROUP' />
+                <img
+                  src='/assets/imgs/Vector_10.png'
+                  alt='thuan phong tay ninh'
+                />
+                <img
+                  src='/assets/imgs/Vector_11.png'
+                  alt='thuan phong tay ninh'
+                />
               </div>
             </div>
           </div>
@@ -138,10 +135,7 @@ export default function HomeBusinessMain() {
               className='--item'
               style={{ width: '100%', display: 'inline-block' }}>
               <div className='--img img_hover'>
-                <img
-                  src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Kho%20%E1%BA%A3nh%20chung/Sun%20Premier%20Village%20Primavera/283/image-thumb__283__image-thumbnail/DJI_0948.jpg'
-                  alt='SUN GROUP'
-                />
+                <img src='/assets/imgs/3.jpg' alt='thuan phong Tây Ninh' />
               </div>
               <div className='--txt'>
                 <div className='--top'>
@@ -151,18 +145,16 @@ export default function HomeBusinessMain() {
                   <h3>Sửa chữa & cải tạo nhà ở - văn phòng -shop</h3>
                   <ul className='mb-0 --empty' />
                 </div>
-                <a
-                  className='--link'
-                  href='/business-field/vui-choi-giai-tri-136'>
-                  <div className='--viewall --link arrow_1 d-flex mt-3 align-items-center'>
-                    Xem chi tiết
-                    <p className='mb-0' />
-                  </div>
-                </a>
               </div>
               <div className='partent'>
-                <img src='/assets/imgs/Vector_10.png' alt='SUN GROUP' />
-                <img src='/assets/imgs/Vector_11.png' alt='SUN GROUP' />
+                <img
+                  src='/assets/imgs/Vector_10.png'
+                  alt='thuan phong tay ninh'
+                />
+                <img
+                  src='/assets/imgs/Vector_11.png'
+                  alt='thuan phong tay ninh'
+                />
               </div>
             </div>
           </div>
@@ -171,13 +163,9 @@ export default function HomeBusinessMain() {
           <div>
             <div
               className='--item'
-        
               style={{ width: '100%', display: 'inline-block' }}>
               <div className='--img img_hover'>
-                <img
-                  src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Kho%20%E1%BA%A3nh%20chung/CA%CC%89NG%20TA%CC%80U%20KHA%CC%81CH%20QUO%CC%82%CC%81C%20TE%CC%82%CC%81%20HA%CC%A3%20LONG/308/image-thumb__308__image-thumbnail/DJI_0016s%20copy.jpg'
-                  alt='SUN GROUP'
-                />
+                <img src='/assets/imgs/4.jpg' alt='thuan phong Tây Ninh' />
               </div>
               <div className='--txt'>
                 <div className='--top'>
@@ -187,18 +175,16 @@ export default function HomeBusinessMain() {
                   <h3>Phân phối các nhãn hàng thương mại</h3>
                   <ul className='mb-0 --empty' />
                 </div>
-                <a
-                  className='--link'
-                  href='/business-field/vui-choi-giai-tri-136'>
-                  <div className='--viewall --link arrow_1 d-flex mt-3 align-items-center'>
-                    Xem chi tiết
-                    <p className='mb-0' />
-                  </div>
-                </a>
               </div>
               <div className='partent'>
-                <img src='/assets/imgs/Vector_10.png' alt='SUN GROUP' />
-                <img src='/assets/imgs/Vector_11.png' alt='SUN GROUP' />
+                <img
+                  src='/assets/imgs/Vector_10.png'
+                  alt='thuan phong tay ninh'
+                />
+                <img
+                  src='/assets/imgs/Vector_11.png'
+                  alt='thuan phong tay ninh'
+                />
               </div>
             </div>
           </div>
@@ -207,13 +193,9 @@ export default function HomeBusinessMain() {
           <div>
             <div
               className='--item'
-             
               style={{ width: '100%', display: 'inline-block' }}>
               <div className='--img img_hover'>
-                <img
-                  src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Kho ảnh chung/SUN WORLD HON THOM NATURE PARK/552/image-thumb__552__image-thumbnail/Sun-World-Hon-Thom-Nature-Park-8-w.jpg'
-                  alt='SUN GROUP'
-                />
+                <img src='/assets/imgs/5.jpg' alt='thuan phong Tây Ninh' />
               </div>
               <div className='--txt'>
                 <div className='--top'>
@@ -223,18 +205,16 @@ export default function HomeBusinessMain() {
                   <h3>Sản xuất & kinh doanh hệ thống tiệm bánh KAMY KITCHEN</h3>
                   <ul className='mb-0 --empty' />
                 </div>
-                <a
-                  className='--link'
-                  href='/business-field/vui-choi-giai-tri-136'>
-                  <div className='--viewall --link arrow_1 d-flex mt-3 align-items-center'>
-                    Xem chi tiết
-                    <p className='mb-0' />
-                  </div>
-                </a>
               </div>
               <div className='partent'>
-                <img src='/assets/imgs/Vector_10.png' alt='SUN GROUP' />
-                <img src='/assets/imgs/Vector_11.png' alt='SUN GROUP' />
+                <img
+                  src='/assets/imgs/Vector_10.png'
+                  alt='thuan phong tay ninh'
+                />
+                <img
+                  src='/assets/imgs/Vector_11.png'
+                  alt='thuan phong tay ninh'
+                />
               </div>
             </div>
           </div>
@@ -242,10 +222,10 @@ export default function HomeBusinessMain() {
       </Swiper>
       <div className='arrow_homeBusiness arrow'>
         <div className='--icon prevarrow'>
-          <img src='assets/imgs/Arrow 9.svg' alt='Thuan Phong Corp' />
+          <img src='assets/imgs/Arrow 9.svg' alt='Thuan Phong Tây Ninh' />
         </div>
         <div className='--icon nextarrow'>
-          <img src='assets/imgs/Arrow 8.svg' alt='Thuan Phong Corp' />
+          <img src='assets/imgs/Arrow 8.svg' alt='Thuan Phong Tây Ninh' />
         </div>
       </div>
     </div>

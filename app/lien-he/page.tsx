@@ -1,6 +1,14 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from 'react'
 
 export default function page() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }, [])
+  
   return (
     <div>
       <div className='contactBanner Banner_1'>
@@ -9,7 +17,7 @@ export default function page() {
           data-aos='zoom-in'>
           <img
             src='/assets/imgs/banner2.jpg'
-            alt='Thuận Phong Corp'
+            alt='Thuận Phong Tây Ninh'
           />
         </div>
         <h1 className='Title aos-init aos-animate' data-aos='fade-up'>
@@ -38,7 +46,7 @@ export default function page() {
             className='segTitle mb-3 aos-init aos-animate'
             data-aos='fade-up'
             data-aos-delay={100}>
-            Sun Group
+            Thuận Phong Tây Ninh
           </h2>
           <div className='--office'>
             <div className='--item'>

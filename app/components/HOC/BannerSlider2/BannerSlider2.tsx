@@ -6,6 +6,7 @@ import './BannerSlider2.css'
 import 'swiper/css/effect-fade'
 import SwiperCore from 'swiper'
 import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper/modules'
+import Link from 'next/link'
 
 SwiperCore.use([Autoplay, Pagination, Navigation, EffectFade]) // has error Property 'use' does not exist on type 'typeof import("d:/ThuanPhongProject/thuanphongcorp/node_modules/swiper/types/modules/index")'.ts(2339)
 type Slide = {
@@ -60,14 +61,14 @@ const BannerSlider2: React.FC<MySliderProps> = ({ slides }) => {
               <div className='--detail'>
                 <h6>“Kiến tạo giá trị - xây dựng tương lai”</h6>
                 <div className='arrow --link d-block m-auto mt-3'>
-                  <a className='--link' href='/about'>
+                  <Link className='--link' href='/gioi-thieu'>
                     <span className='--link d-flex align-items-center'>
                       Về Thuận Phong Corp
                       <div className='--icon'>
-                        <img src='/assets/imgs/Arrow 7.svg' alt='SUN GROUP' />
+                        <img src='/assets/imgs/Arrow 7.svg' alt='thuan phong corp' />
                       </div>
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -81,7 +82,7 @@ const BannerSlider2: React.FC<MySliderProps> = ({ slides }) => {
         <span className='d-none' ref={progressContent}></span>
       </div>
       <div className='nextarrow'>
-        <img src='/assets/imgs/Arrow 1.svg' alt='SUN GROUP' />
+        <img src='/assets/imgs/Arrow 1.svg' alt='thuan phong corp' />
       </div>
     </Swiper>
   )

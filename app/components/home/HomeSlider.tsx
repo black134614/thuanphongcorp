@@ -9,35 +9,35 @@ const slides = [
   {
     imageUrl:
       '/assets/imgs/KT TP Show.jpg',
-    alt: 'Thuận Phong corp',
+    alt: 'Thuận Phong Tây Ninh',
     isActive: true,
     rightToLeft: true,
   },
   {
     imageUrl:
       '/assets/imgs/banner3.jpg',
-    alt: 'Thuận Phong corp',
+    alt: 'Thuận Phong Tây Ninh',
     isActive: false,
     rightToLeft: false,
   },
   { 
     imageUrl:
       '/assets/imgs/banner1.jpg',
-    alt: 'Thuận Phong corp',
+    alt: 'Thuận Phong Tây Ninh',
     isActive: false,
     rightToLeft: false,
   },
   {
     imageUrl:
       '/assets/imgs/banner2.jpg',
-    alt: 'Thuận Phong corp',
+    alt: 'Thuận Phong Tây Ninh',
     isActive: false,
     rightToLeft: false,
   },
   {
     imageUrl:
       '/assets/imgs/banner4.jpg',
-    alt: 'Thuận Phong corp',
+    alt: 'Thuận Phong Tây Ninh',
     isActive: false,
     rightToLeft: false,
   },
@@ -58,7 +58,7 @@ export default function HomeSlider() {
       <div className='partent'>
         <img
           src='assets/imgs/tp-con-dau.png'
-          alt='Thuan phong corp'
+          alt='Thuan phong Tây Ninh'
         />
       </div>
       <div className='nextframe' onClick={handleRollClick}>

@@ -53,14 +53,14 @@ export default function HomeImprint() {
           <div className='--item'>
             <img
               src='/assets/imgs/thuan-phong-logo-full.png'
-              alt='thuan-phong-corp'
+              alt='thuan-phong-Tây Ninh'
             />
           </div>
         </div>
       </div>
       <div className='--txt'>
         <p className='segTitle aos-init aos-animate' data-aos='fade-up'>
-          Bài viết dấu ấn
+          THIẾT KẾ VÀ THI CÔNG SHOP TRỌN GÓI
         </p>
         <div className='--content'>
           <h3
@@ -72,23 +72,40 @@ export default function HomeImprint() {
             data-aos='fade-up'
             data-aos-delay={100}
             className='aos-init aos-animate'>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using Content here, content
-            here, making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for lorem ipsum will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose injected humour
-            and the like
+            🎨Bạn đang mong muốn sở hữu một không gian kinh doanh đẹp mắt và
+            hiệu quả? Hãy để In ấn Quảng cáo Nội thất Thuận Phong giúp bạn 🌟
+            <br />
+            🏆 Với nhiều năm kinh nghiệm trong lĩnh vực thiết kế và thi công nội
+            thất trọn gói, chúng tôi tự tin đưa ra giải pháp cho bạn. Chúng tôi
+            chuyên về thiết kế và thi công cho các shop, văn phòng, spa, quán
+            ăn, quán cà phê, tiệm trà sữa... với chất lượng tốt và giá hợp lý.
+            <br />
+            🏪 - Tư vấn, thiết kế độc quyền 2D - 3D - Hoàn phí thiết kế khi thi
+            công trọn gói - Báo giá dự toán chi tiết, minh bạch - Có hệ thống
+            xưởng sản xuất khép kín - Cam kết thi công giống mẫu thiết kế -
+            Chính sách bảo hành, bảo trì rõ ràng
+            <br />
+             --------
+            <br />
+            📍 Đ𝐢̣𝐚 𝐜𝐡𝐢̉ 𝐥𝐢𝐞̂𝐧 𝐡𝐞̣̂: - Văn phòng đại diện Showrom: PG2-02 Vincom,
+            Đường 30/04, Khu phố 5, Phường 3, TP Tây Ninh. - Trụ sở Công Ty: 148
+            - 150 Phạm Hùng, KP3, P Long Hoa, TX Hòa Thành, tỉnh Tây Ninh. -
+            Xưởng sản xuất nội thất: 152 - 154 Phạm Hùng, KP3, P Long Hoa, TX
+            Hòa Thành, tỉnh Tây Ninh. - Xưởng sản xuất quảng cáo: 3/3 KP. Long
+            Trung, P. Long Thành Trung, TX Hòa Thành, Tỉnh Tây Ninh.
+            <br />
+            📞 Hãy gọi cho chúng tôi: 
+            <br />
+            - 0932 097 773 (Hotline)
+            <br />
+            - 05 6666 7070 (Kinh Doanh)
+            <br />- 0937 22 28 29 (Kỹ Thuật)
           </article>
 
           <a className='--link' href='/'>
             <div className='--img img_hover --link'>
               <img
-                src='https://sun-ecommerce-cdn.azureedge.net/ecommerce/service-sites/thumbnail/SunGroup/Kho%20%E1%BA%A3nh%20chung/HR%20-%20MO%CC%82I%20TRU%CC%9BO%CC%9B%CC%80NG%20LA%CC%80M%20VIE%CC%A3%CC%82C/363/image-thumb__363__image-thumbnail/Ba%CC%89n%20sao%20cu%CC%89a%20Ta%CC%A3%CC%82p%20%C4%91oa%CC%80n%20Sun%20Group%20nha%CC%A3%CC%82n%20gia%CC%89i%20ta%CC%A3i%20Vietnam%20HR%20Awards%202020%20%20%282%29.jpg'
-                alt={'thuan phong tp'}
+                src='/assets/imgs/banner7.jpg'
               />
             </div>
           </a>

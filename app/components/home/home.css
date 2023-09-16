@@ -1278,7 +1278,7 @@ ul.data span:nth-child(2) {
     opacity: 0;
     position: absolute;
     bottom: 0px;
-    right: 0px;
+    right: -350px;
     transition: all 0.5s ease 0s;
 }
 
@@ -1305,7 +1305,7 @@ ul.data span:nth-child(2) {
     object-fit: cover;
 }
 .aboutValue .--img::after {
-    background: radial-gradient(54.93% 69.99% at 111% 88%, rgb(0, 0, 0) 78%, rgba(6, 5, 3, 0.62) 100%);
+    background: radial-gradient(54.93% 69.99% at 106% 117%, rgb(0, 0, 0) 67%, rgba(6, 5, 3, 0.62) 100%);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -1579,7 +1579,8 @@ ul.data span:nth-child(2) {
     border-bottom: 1px solid rgb(192, 192, 192);
     width: 90%;
     transform: translate(-50%, 0px);
-}.noteNews .--cate {
+}
+.noteNews .--cate {
     color: var(--color-2);
     text-transform: uppercase;
     position: relative;
@@ -1610,6 +1611,12 @@ ul.data span:nth-child(2) {
     border: 1px solid var(--color-3);
     border-radius: 100px;
     width: max-content;
+}
+.newsHot .--txt span[aria-live="polite"],
+.newsHot .--txt span[aria-live="polite"] > span {
+    border: none;
+    border-radius: unset;
+    width: 100%;
 }
 .button_hover {
     position: relative;
@@ -1646,7 +1653,7 @@ ul.data span:nth-child(2) {
     margin-bottom: 12px;
     padding-bottom: 12px;
     border-bottom: 0.5px solid rgb(197, 197, 197);
-}   
+}
 .newsTabcate .item_3 .--news {
     width: calc(50% - 20px);
 }
@@ -1702,7 +1709,8 @@ ul.data span:nth-child(2) {
     margin-bottom: 12px;
     border-bottom: 0.5px solid rgb(197, 197, 197);
 }
-.newscateTab .--news:nth-child(5), .newscateTab .--news:nth-child(6) {
+.newscateTab .--news:nth-child(5),
+.newscateTab .--news:nth-child(6) {
     margin-bottom: 0px;
     padding-bottom: 0px;
     border-bottom: none;
@@ -1710,7 +1718,8 @@ ul.data span:nth-child(2) {
 .page-item:not(:first-child) .page-link {
     /* margin-left: calc(var(--bs-border-width) * -1); */
 }
-.pagination a, .pagination .--link {
+.pagination a,
+.pagination .--link {
     width: 36px;
     height: 36px;
     padding: 0px;
@@ -1730,13 +1739,16 @@ ul.data span:nth-child(2) {
 .pagination li.active {
     margin: 0px 4px;
 }
-.pagination li.active a, .pagination li.active .--link ,
-.pagination li.active a, .pagination li:hover .--link {
+.pagination li.active a,
+.pagination li.active .--link,
+.pagination li.active a,
+.pagination li:hover .--link {
     border: none;
     color: var(--color-1) !important;
     background: none !important;
 }
-.pagination li.active a::after, .pagination li.active .--link::after {
+.pagination li.active a::after,
+.pagination li.active .--link::after {
     content: "";
     position: absolute;
     width: 25px;
@@ -1747,32 +1759,33 @@ ul.data span:nth-child(2) {
     left: 50%;
 }
 
-.h3, h3 {
-    font-size: calc(1.3rem + .6vw);
+.h3,
+h3 {
+    font-size: calc(1.3rem + 0.6vw);
 }
 
- .contactContent {
+.contactContent {
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
- .contactContent .--left {
+.contactContent .--left {
     width: calc(50% - 50px);
 }
- .contactContent .--office h6 {
+.contactContent .--office h6 {
     margin-bottom: 12px;
     text-transform: uppercase;
     font-weight: 600;
 }
- .contactContent .--office ul {
+.contactContent .--office ul {
     padding-left: 0px;
     list-style: none;
     margin-bottom: 1.5rem;
 }
- .contactContent .--office li {
+.contactContent .--office li {
     margin-bottom: 6px;
 }
- .contactContent .--office i {
+.contactContent .--office i {
     color: var(--color-1);
     width: 28px;
     transition: all 0.15s ease 0s;
@@ -1787,7 +1800,7 @@ ul.data span:nth-child(2) {
     border: 1px solid var(--color-1);
     border-radius: 50%;
 }
- .contactContent .--right {
+.contactContent .--right {
     width: calc(50% - 50px);
     background: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px;
@@ -1819,8 +1832,8 @@ ul.data span:nth-child(2) {
         display: flex;
         left: 0;
         padding-left: 12px;
-        margin-top: 2rem;
-        padding-bottom: 30px;
+        margin-top: 3rem;
+        width: auto;
     }
     .homeNews .arrow_homeNews .--icon {
         top: unset;
@@ -1917,7 +1930,9 @@ ul.data span:nth-child(2) {
         font-size: 18px;
         margin-bottom: 0.5rem !important;
     }
-    .hotNews .--txt h5:hover, .hotNews .--txt h5:active, .hotNews .--txt h5:focus{
+    .hotNews .--txt h5:hover,
+    .hotNews .--txt h5:active,
+    .hotNews .--txt h5:focus {
         color: var(--color-1);
     }
     .newsall .--txt {
@@ -2118,6 +2133,7 @@ ul.data span:nth-child(2) {
         margin-bottom: 1.5rem;
         background: var(--color-1);
         color: rgb(27, 27, 27);
+        overflow: hidden;
     }
     .aboutValue .--corevalue .list_corevalue .arrow_1 p {
         background: rgb(0, 0, 0);
@@ -2260,22 +2276,22 @@ ul.data span:nth-child(2) {
         padding: 0px !important;
         margin-bottom: 1.5rem !important;
     }
-    
+
     .contactContent {
         flex-flow: column;
         padding: 3rem 24px;
     }
-     .contactContent .--left {
+    .contactContent .--left {
         width: 100%;
     }
-     .contactContent .--right {
+    .contactContent .--right {
         margin-top: 1.5rem;
         width: 100%;
         background: none;
         box-shadow: none;
         padding: 0px;
     }
-    .homeEcosystem .list_homeEcosystem .--item ul p:nth-child(1){
+    .homeEcosystem .list_homeEcosystem .--item ul p:nth-child(1) {
         width: auto;
         margin-right: 5px;
     }

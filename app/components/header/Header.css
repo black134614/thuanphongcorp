@@ -3,7 +3,7 @@ header {
     top: 0px;
     left: 50%;
     z-index: 99;
-    height: 75px;
+    height: 60px;
     width: 90%;
     transition: all 0.15s ease 0s;
     transform: translate(-50%, 0px);
@@ -18,7 +18,7 @@ header.change {
 header .logo img {
     max-width: 160px;
     max-height: 50px;
-    transform: translateY(25%);
+    transform: translateY(-5%);
 }
 
 header .menu_pc {
@@ -28,6 +28,8 @@ header .menu_pc {
     left: 50%;
     transform: translate(-50%, 0px);
     height: 100%;
+    font-size: 16px;
+    font-weight: 500;
 }
 header .menu .--item {
     color: rgb(255, 255, 255);
@@ -304,10 +306,16 @@ header .tab_menu.active p:nth-child(2) {
 header .tab_menu.active p:nth-child(3) {
     transform: rotate(-45deg) translate(4px, -5px);
 }
+
 @media (max-width: 1200px) {
     header .menu_pc {
         left: 50px;
         transform: translate(0, 0);
+    }
+}
+@media (min-width: 992px) {
+    .header_top {
+        position: relative;
     }
 }
 @media (max-width: 992px) {
@@ -315,7 +323,7 @@ header .tab_menu.active p:nth-child(3) {
         height: 100px;
     }
     header .menu_pc {
-        transform: translate(0, 25%);
+        transform: translate(25%, 25%);
     }
 }
 @media (max-width: 768px) {
@@ -421,7 +429,7 @@ header .tab_menu.active p:nth-child(3) {
         opacity: 1;
         color: var(--color-1);
     }
-    header .logo img{
+    header .logo img {
         transform: none;
     }
 }

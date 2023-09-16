@@ -1,0 +1,1 @@
+export const DOMAIN = 'https://lid.vn/wp-json/wp/v2/'

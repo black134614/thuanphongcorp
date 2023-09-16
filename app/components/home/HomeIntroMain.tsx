@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 async function getMovies() {
@@ -10,7 +11,7 @@ export default async function HomeIntroMain() {
   return (
     <div className='homeIntro main'>
       <div className='--txt aos-init aos-animate' data-aos='fade-up'>
-        THUẬN PHONG CORP
+        THUẬN PHONG Tây Ninh
       </div>
       <div className='--year d-flex flex-column'>
         <div className='--number d-flex align-items-end'>
@@ -21,7 +22,7 @@ export default async function HomeIntroMain() {
             <img
               data-aos='fade-up'
               src='assets/imgs/Banner.png'
-              alt='Thuận Phong Corp'
+              alt='Thuận Phong Tây Ninh'
               className='aos-init aos-animate'
             />
           </div>
@@ -50,22 +51,22 @@ export default async function HomeIntroMain() {
           trường Tây Ninh.
         </p>
       </article>
-      <a className='--link' href='/gioi-thieu'>
+      <Link className='--link' href='/gioi-thieu'>
         <div
           className='arrow --link d-flex align-items-center aos-init aos-animate'
           data-aos='fade-up'
           data-aos-delay={300}>
           Tìm hiểu thêm
           <div className='--icon'>
-            <img src='assets/imgs/Arrow 7.svg' alt='Thuận Phong Corp' />
+            <img src='assets/imgs/Arrow 7.svg' alt='Thuận Phong Tây Ninh' />
           </div>
         </div>
-      </a>
+      </Link>
       <div className='--icon_1'>
-        <img src='assets/imgs/icon_1.svg' alt='Thuận Phong Corp' />
+        <img src='assets/imgs/icon_1.svg' alt='Thuận Phong Tây Ninh' />
       </div>
       <div className='partent'>
-        <img src='assets/imgs/partent_4.svg' alt='Thuan Phong Corp' />
+        <img src='assets/imgs/partent_4.svg' alt='Thuan Phong Tây Ninh' />
       </div>
     </div>
   )
