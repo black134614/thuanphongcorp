@@ -17,6 +17,7 @@ export default async function Home() {
           <HomeBusinessMain />
           <HomeImprint />
           <HomeEcoSystem />
+          <div className="zalo-chat-widget" data-oaid="1337303147334772731" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="2" data-width="300" data-height="400"></div>
         </div>
     </>
   )
