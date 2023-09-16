@@ -6,6 +6,7 @@ import './components/home/home.css'
 import Loading from './loading'
 import { Suspense } from 'react'
 import Script from 'next/script'
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: 'Thuận Phong Tây Ninh',
@@ -59,6 +60,7 @@ export default function RootLayout({
         <Script
           src='https://sp.zalo.me/plugins/sdk.js'
           strategy='afterInteractive'></Script>
+          <Analytics />
       </body>
     </html>
   )
