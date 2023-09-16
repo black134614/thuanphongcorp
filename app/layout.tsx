@@ -24,6 +24,16 @@ export default function RootLayout({
           {children}
           <Footer />
         </Suspense>
+        <div
+          className='zalo-chat-widget'
+          data-oaid='1337303147334772731'
+          data-welcome-message='Rất vui khi được hỗ trợ bạn!'
+          data-autopopup='2'
+          data-width='300'
+          data-height='400'></div>
+        <script
+          src='https://sp.zalo.me/plugins/sdk.js'
+          strategy='worker'></script>
       </body>
     </html>
   )
