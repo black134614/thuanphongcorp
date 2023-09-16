@@ -1,4 +1,9 @@
-  
+.zalo-chat-widget{
+    right: 18px!important;
+}  
+.za-chat__head-box .logo img{
+    width: 45px!important;
+}
 .Banner {
     position: relative;
 }
