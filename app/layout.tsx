@@ -9,8 +9,8 @@ import Facebook from './components/Facebook'
 import Script from 'next/script'
 
 export const metadata = {
-  title: 'Thuận Phong Corp',
-  description: 'Thuận Phong Corp',
+  title: 'Thuận Phong Tây Ninh',
+  description: 'Thuận Phong Tây Ninh',
 }
 
 export default function RootLayout({
@@ -28,6 +28,13 @@ export default function RootLayout({
         </Suspense>
         <div id='fb-root'></div>
         <div id='fb-customer-chat' className='fb-customerchat'></div>
+        <div
+          className='zalo-chat-widget'
+          data-oaid='1337303147334772731'
+          data-welcome-message='Rất vui khi được hỗ trợ bạn!'
+          data-autopopup='2'
+          data-width='300'
+          data-height='400'></div>
         <Script id='chatfb'>
           {`var chatbox = document.getElementById('fb-customer-chat');
     chatbox.setAttribute("page_id", "537686649638747");
@@ -49,7 +56,10 @@ export default function RootLayout({
         fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));`}
         </Script>
-        {/* <Facebook /> */}
+
+        <Script
+          src='https://sp.zalo.me/plugins/sdk.js'
+          strategy='afterInteractive'></Script>
       </body>
     </html>
   )
